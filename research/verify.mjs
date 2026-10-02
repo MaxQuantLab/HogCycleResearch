@@ -4,22 +4,29 @@ import vm from 'node:vm';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),A=require('../dist/analytics.js');
 const D=JSON.parse(fs.readFileSync('dist/data.json','utf8')),html=fs.readFileSync('dist/index.html','utf8');
-assert.equal(D.catalog.length,62);assert.equal(D.observations.length,1539);
+assert.equal(D.catalog.length,62);assert.equal(D.observations.length,1850);
+assert.deepEqual(D.history,['2016-01','2025-12']);
+assert.equal(D.observations.filter(o=>o.date<'2021-01').length,311);
 assert.equal(new Set(D.observations.map(o=>o.metric+'|'+o.date)).size,D.observations.length);
 const catalog=Object.fromEntries(D.catalog.map(c=>[c.id,c]));
-for(const o of D.observations){assert.ok(catalog[o.metric]);assert.match(o.date,/^202[1-6]-(0[1-9]|1[0-2])$/);assert.ok(o.date<='2026-08');assert.ok(Number.isFinite(o.value));assert.match(o.url,/^https:\/\//);if(!o.metric.includes('profit')&&!o.metric.endsWith('_ppi'))assert.ok(o.value>=0);}
-assert.equal(A.series(D,'ratio_mara').filter(o=>o.date<='2025-12').length,59);
+for(const o of D.observations){assert.ok(catalog[o.metric]);assert.match(o.date,/^(201[6-9]|202[0-6])-(0[1-9]|1[0-2])$/);assert.ok(o.date<='2026-08');assert.ok(Number.isFinite(o.value));assert.match(o.url,/^https:\/\//);if(!o.metric.includes('profit')&&!o.metric.endsWith('_ppi'))assert.ok(o.value>=0);}
+assert.equal(A.series(D,'ratio_mara').filter(o=>o.date>='2021-01'&&o.date<='2025-12').length,59);
 assert.equal(A.series(D,'ratio_mara').find(o=>o.date==='2024-10'),undefined);
 assert.ok(A.series(D,'slaughter').every(o=>o.date<'2025-07'));
 assert.ok(A.series(D,'slaughter_all').every(o=>o.date>='2025-07'));
-for(const c of D.catalog.filter(c=>c.frequency==='年度'&&!c.id.startsWith('lh_')))assert.deepEqual(A.series(D,c.id).map(o=>o.date),['2021-12','2022-12','2023-12','2024-12','2025-12']);
+for(const id of ['pork_annual','inventory_annual','outbound_annual','beef_annual','lamb_annual','poultry_annual','meat_annual','eggs_annual','income_annual','corn_annual','restaurant_annual','carcass_proxy'])assert.deepEqual(A.series(D,id).map(o=>o.date),Array.from({length:10},(_,i)=>(2016+i)+'-12'));
+for(const c of D.catalog)assert.equal(c.expectedHistory,c.frequency==='年度'?10:c.frequency.startsWith('季度')?40:120);
+assert.ok(A.series(D,'sows').every(o=>o.date>='2019-12'));
+assert.equal(A.series(D,'hog').find(o=>o.date==='2016-01').value,17.62);
+assert.equal(A.series(D,'ratio_mara').find(o=>o.date==='2017-01').value,9.59);
+assert.equal(A.series(D,'pork_annual').find(o=>o.date==='2020-12').value,4113);
 assert.deepEqual(A.series(D,'pigfeed_annual').map(o=>o.value),[13076.5,13597.5,14975.2,14391.3,16639.4]);
 assert.deepEqual(A.series(D,'lh_daily_oi_annual').map(o=>o.date),['2021-12','2025-12']);
 assert.equal(A.segments(A.series(D,'lh_daily_oi_annual'),12).length,2);
 assert.equal(A.series(D,'population_annual').at(-1).value,140489);
 assert.equal(A.series(D,'income_annual').at(-1).value,43377);
 assert.equal(A.shift('2021-11',3),'2022-02');assert.equal(A.shift('2024-02',-12),'2023-02');
-const idx=A.prepare(D,'hog','corn','history','index');assert.equal(idx.baseline,'2021-01');assert.equal(idx.a[0].plot,100);assert.equal(idx.b[0].plot,100);assert.equal(idx.pairs.length,41);
+const idx=A.prepare(D,'hog','corn','history','index');assert.equal(idx.baseline,'2016-01');assert.equal(idx.a[0].plot,100);assert.equal(idx.b[0].plot,100);assert.equal(idx.pairs.length,67);
 const lagged=A.prepare(D,'sows','hog','all','raw',10);for(const p of lagged.pairs){assert.equal(A.shift(p.sourceDate,10),p.date);assert.equal(p.y,A.series(D,'hog').find(o=>o.date===p.date).value);}
 const yoy=A.prepare(D,'hog','corn','all','yoy');for(const r of yoy.a){const prev=A.series(D,'hog').find(o=>o.date===A.shift(r.date,-12));assert.ok(prev);assert.ok(Math.abs(r.plot-(r.value/prev.value-1)*100)<1e-10);}
 assert.ok(A.prepare(D,'scale_profit','small_profit','history','index').error);
@@ -43,12 +50,12 @@ const document={getElementById:id=>nodes.get(id),querySelectorAll:select,querySe
 const window={HOG_DATA:D,HogAnalytics:A,addEventListener:(k,fn)=>events[k]=fn,scrollTo:()=>{}};
 const context=vm.createContext({window,document,location,history:{replaceState:(_,__,hash)=>location.hash=hash},URL,Blob,AbortController,console});
 vm.runInContext(fs.readFileSync('dist/app.js','utf8'),context);
-assert.match(nodes.get('kpis').innerHTML,/11.36/);assert.match(nodes.get('overview-chart').innerHTML,/<svg/);assert.match(nodes.get('heatmap').innerHTML,/2024-10/);assert.match(nodes.get('future-result').innerHTML,/170,880/);assert.equal(registered.size,2);assert.match(nodes.get('pigfeed-bars').innerHTML,/16,639\.4/);assert.match(nodes.get('overview-coverage').textContent,/25项年度/);
+assert.match(nodes.get('kpis').innerHTML,/11.36/);assert.match(nodes.get('overview-chart').innerHTML,/<svg/);assert.match(nodes.get('heatmap').innerHTML,/2024-10/);assert.match(nodes.get('heatmap').innerHTML,/2016-01/);assert.match(nodes.get('heatmap').innerHTML,/2026-12/);assert.equal((nodes.get('heatmap').innerHTML.match(/data-date=/g)||[]).length,132);assert.match(nodes.get('future-result').innerHTML,/170,880/);assert.equal(registered.size,2);assert.match(nodes.get('pigfeed-bars').innerHTML,/16,639\.4/);assert.match(nodes.get('overview-coverage').textContent,/12项年度/);
 for(const id of ['overview-period','trajectory-period','lab-period'])assert.equal(nodes.get(id).value,'all');
 assert.match(nodes.get('hog-trend').innerHTML,/2026-08/);assert.match(nodes.get('overview-chart').innerHTML,/2026-08/);
 elements.find(e=>e.dataset.pair==='hog,corn,index').onclick();assert.equal(nodes.get('lab-period').value,'all');
 for(const id of ['sows-trend','hog-trend','pork-trend'])assert.match(nodes.get(id).innerHTML,/<svg/);
-assert.equal((nodes.get('pork-trend').innerHTML.match(/class="chart-point"/g)||[]).length,5);
+assert.equal((nodes.get('pork-trend').innerHTML.match(/class="chart-point"/g)||[]).length,10);
 assert.equal((nodes.get('sows-trend').innerHTML.match(/class="chart-point"/g)||[]).length,A.series(D,'sows').length);
 assert.equal((nodes.get('hog-trend').innerHTML.match(/class="chart-point"/g)||[]).length,A.series(D,'hog').length);
 assert.match(nodes.get('pork-trend-note').textContent,/全年总量/);
@@ -63,7 +70,7 @@ nodes.get('table-year').value='2024';nodes.get('table-year').onchange();assert.m
 const tool=registered.get('configure_indicator_comparison');assert.equal(tool.annotations.readOnlyHint,false);assert.equal(tool.inputSchema.additionalProperties,false);
 const configured=tool.execute({a:'sows',b:'hog',period:'all',mode:'raw',lag:10});assert.equal(configured.lag,10);assert.ok(configured.pairs>12);assert.equal(window.HogSite.readState().a,'sows');assert.equal(nodes.get('explore').hidden,false);
 const before=JSON.stringify(window.HogSite.readState());assert.throws(()=>tool.execute({a:'made-up',lag:10}));assert.equal(JSON.stringify(window.HogSite.readState()),before);assert.throws(()=>tool.execute({a:'sows',unknown:true}));
-const read=registered.get('read_indicator_observations');assert.equal(read.annotations.readOnlyHint,true);const result=read.execute({metricIds:['pork_annual','corn_annual'],period:'2025'});assert.equal(result[0].observations.length,1);assert.equal(result[0].observations[0].value,5938);assert.throws(()=>read.execute({metricIds:['bad']}));assert.equal(JSON.stringify(window.HogSite.readState()),before);
+const read=registered.get('read_indicator_observations');assert.equal(read.execute({metricIds:['pork_annual'],period:'history'})[0].observations.length,10);assert.equal(read.execute({metricIds:['hog'],period:'2016'})[0].observations[0].value,17.62);assert.equal(read.annotations.readOnlyHint,true);const result=read.execute({metricIds:['pork_annual','corn_annual'],period:'2025'});assert.equal(result[0].observations.length,1);assert.equal(result[0].observations[0].value,5938);assert.throws(()=>read.execute({metricIds:['bad']}));assert.equal(JSON.stringify(window.HogSite.readState()),before);
 assert.equal(window.HogSite.downloadCsv(A.series(D,'ratio_mara').filter(o=>o.date.startsWith('2024'))).split('\r\n').length,12);
 for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(!/^(https:|data:)/.test(m[1]))assert.ok(fs.existsSync('dist/'+m[1]),'Missing asset '+m[1]);}
 assert.equal(new Set(elements.filter(e=>e.id).map(e=>e.id)).size,elements.filter(e=>e.id).length);

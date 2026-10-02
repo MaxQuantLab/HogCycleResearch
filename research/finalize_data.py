@@ -2,7 +2,7 @@ import json,csv
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 x=json.loads((ROOT/'research/data-stage.json').read_text())
-x['observations']=sorted([o for o in x['observations'] if o['date']>='2021-01'],key=lambda o:(o['metric'],o['date']))
+x['observations']=sorted([o for o in x['observations'] if o['date']>='2016-01'],key=lambda o:(o['metric'],o['date']))
 for o in x['observations']:
  if o['method']=='环比反推':o['note']='根据后一期月报公布的猪粮比及较上月变化点数反推前期值；原文四舍五入会影响精度。'
  elif o['note']=='Published monthly observation':o['note']='原报告公布的月度猪粮比。'
@@ -13,7 +13,7 @@ gaps=[
  ('供给','二次育肥与压栏','先减少当期上市，再增加后期供给；不能视作永久去产能。','二育买入、退出、库存与样本方法。','数周至数月'),
  ('供给','上市养殖企业出栏与资本开支','扩产与集中度提升会改变供给弹性；企业样本不是全国总量。','交易所公告与公司月报，剔除种猪仔猪口径差异。','当期及约1年以上'),
  ('供给','屠宰开工率与白条走货','观察需求承接力度；开工率也受有效产能分母变化影响。','同样本屠宰厂实际开工、订单和销量。','当期'),
- ('成本','月度猪饲料产量','观察养殖活动与饲料需求；自产料和配方变化影响解释。','年度五年值已收集；还需连续月度、同口径分类产量。','当期至数月'),
+ ('成本','月度猪饲料产量','观察养殖活动与饲料需求；自产料和配方变化影响解释。','2021—2025年度值已收集；还需2016—2020年度及连续月度、同口径分类产量。','当期至数月'),
  ('成本','料肉比与全程成活率','直接改变每公斤增重成本和每头可售成本。','同规模、同育肥阶段样本的饲料转化率及成活率。','一个育肥周期'),
  ('成本','玉米地头价与湿粮折价','农户收入还受含水率、品质、烘干与本地收购影响。','地区、标准水分、质量等级、到厂/地头口径分开。','新粮上市季及当期'),
  ('成本','仔猪每头购入价与自繁成本','外购育肥与自繁自养的盈亏线不同。','固定体重仔猪每头价，不用元/公斤价格直接代替。','约5—6个月'),
@@ -28,20 +28,22 @@ gaps=[
  ('政策','环保 / 用地 / 信贷 / 保险 / 扩产约束','改变进入和退出成本，地区执行强度可能不同。','政策发布时间、实施地区与实际执行；逐事件记录。','数月至数年'),
  ('冲击','非洲猪瘟及其他疫病','短期淘汰增加上市、随后有效产能可能下降；隐性损失难统计。','官方疫情事件、淘汰规模、成活率；不能把报告数当实际流行率。','当期及后续周期'),
  ('冲击','高温 / 洪水 / 寒潮 / 运输限制','改变采食、增重、成活、运力及消费。','主产区气象、灾情和交通事件，按地理权重合成。','当期至数月'),
- ('期货','LH各合约结算价 / 成交 / 持仓','预期、流动性与仓位共同影响期货价格。','已有2021、2025部分年度流动性数据；尚未取得连续五年逐合约日行情。','每日'),
+ ('期货','LH各合约结算价 / 成交 / 持仓','预期、流动性与仓位共同影响期货价格。','已有2021、2025部分年度流动性数据；2021年上市后仍缺连续逐合约日行情，上市前没有LH交易数据。','每日'),
  ('期货','基差 / 跨期价差 / 季节性','需同交割地区现货、同日期、同品质；主力切换可能制造跳变。','地区现货与指定合约配对，保留换月规则。','对应交割月份'),
  ('期货','仓单 / 交割 / 保证金与限仓变化','影响可交割供应、资金压力和价格波动。','大商所规则与公告按生效日期整理。','临近交割与政策生效时'),
 ]
-x['gaps']=[dict(group=g,name=n,effect=e,required=r,lag=l,status='未取得可比五年序列') for g,n,e,r,l in gaps]
+x['gaps']=[dict(group=g,name=n,effect=e,required=r,lag=l,status='未取得可比十年序列') for g,n,e,r,l in gaps]
 x['sources']=[{'url':u,'records':sum(o['url']==u for o in x['observations']),'first':min(o['date'] for o in x['observations'] if o['url']==u),'last':max(o['date'] for o in x['observations'] if o['url']==u)} for u in sorted(set(o['url'] for o in x['observations']))]
 for c in x['catalog']:
  rows=[o for o in x['observations'] if o['metric']==c['id']]
- c['count']=len(rows);c['historyCount']=sum('2021-01'<=o['date']<='2025-12' for o in rows);c['latest']=rows[-1] if rows else None
- c['expectedHistory']=5 if c['frequency']=='年度' else (20 if c['frequency'].startswith('季度') else 60)
+ c['count']=len(rows);c['historyCount']=sum('2016-01'<=o['date']<='2025-12' for o in rows);c['latest']=rows[-1] if rows else None
+ c['expectedHistory']=10 if c['frequency']=='年度' else (40 if c['frequency'].startswith('季度') else 120)
  c['coverageNote']='2025年7月结束原范围，后续单列全部定点企业。' if c['id']=='slaughter' else ('2025年7月启用新统计范围，本版已取得4个历史月份。' if c['id']=='slaughter_all' else ('截至2025年8月；后续联合月报未继续列出，不能当作当前成本。' if c['id'].startswith(('small_','scale_')) or c['id']=='ratio_ndrc' else '缺失期不填充，原表同期值与上月值保留提取方式。'))
 for c in x['catalog']:
  if c['id'].startswith('lh_'):c['coverageNote']='仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。'
- elif c['id'] in ['pigfeed_annual','industrialfeed_annual','population_annual','income_annual']:c['coverageNote']='2021—2025年度五期完整；年度落点为12月，不代表发布日期。'
+ elif c['frequency']=='年度':c['coverageNote']=f"2016—2025已收集{c['historyCount']}/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
+ if c['id'] in ['sows','sows_annual']:c['coverageNote']+=' 2016—2018未取得与现行头数口径可比的存栏值；旧400县监测主要公布增减幅，2018年样本调整，不拼接为头数。'
+ if c['id'].startswith('lh_'):c['coverageNote']+=' 生猪期货2021年上市，2016—2020无LH交易数据。'
 assert len(set((o['metric'],o['date']) for o in x['observations']))==len(x['observations'])
 assert all(o['url'].startswith('https://') and 0<len(o['date'])==7 for o in x['observations'])
 assert all(o['date']<='2026-08' for o in x['observations'])
@@ -49,11 +51,11 @@ assert all(o['date']<='2026-08' for o in x['observations'])
 (ROOT/'dist/data.js').write_text('window.HOG_DATA = '+json.dumps(x,ensure_ascii=False,separators=(',',':'))+';\n')
 cats={c['id']:c for c in x['catalog']}
 with (ROOT/'dist/observations.csv').open('w',encoding='utf-8-sig',newline='') as f:
- w=csv.writer(f);w.writerow(['指标代码','指标名称','分类','统计期','值','单位','频率','提取方式','备注','原表同比','原表环比','来源链接'])
+ w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','统计期','值','单位','频率','提取方式','备注','原表同比','原表环比','来源链接'])
  for o in x['observations']:
   c=cats[o['metric']];w.writerow([o['metric'],c['name'],c['group'],o['date'],o['value'],c['unit'],c['frequency'],o['method'],o['note'],o['yoy'],o['mom'],o['url']])
 with (ROOT/'dist/indicator-catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
- w=csv.writer(f);w.writerow(['指标代码','指标名称','分类','单位','频率','定义','影响机制','通常时滞','发布单位','历史观测数','覆盖说明'])
+ w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','单位','频率','定义','影响机制','通常时滞','发布单位','历史观测数','覆盖说明'])
  for c in x['catalog']:w.writerow([c['id'],c['name'],c['group'],c['unit'],c['frequency'],c['definition'],c['effect'],c['lag'],c['agency'],c['historyCount'],c['coverageNote']])
  for g in x['gaps']:w.writerow(['',g['name'],g['group'],'','待核验',g['required'],g['effect'],g['lag'],'',0,g['status']])
-print(json.dumps({'observations':len(x['observations']),'metrics':len(x['catalog']),'gaps':len(x['gaps']),'sources':len(x['sources']),'annualComplete':sum(c['frequency']=='年度' and c['historyCount']==5 for c in x['catalog'])},ensure_ascii=False))
+print(json.dumps({'observations':len(x['observations']),'metrics':len(x['catalog']),'gaps':len(x['gaps']),'sources':len(x['sources']),'annualComplete':sum(c['frequency']=='年度' and c['historyCount']==10 for c in x['catalog'])},ensure_ascii=False))

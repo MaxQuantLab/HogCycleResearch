@@ -4,3 +4,5 @@
 /* Preserve readable SVG labels and prevent narrow-card overflow. */
 .chart svg text{font-size:18px}.scroll-chart{overflow-x:auto;overflow-y:hidden}.scroll-chart svg{min-width:800px}.bar-chart{overflow-x:auto}.bar-chart svg{min-width:320px}.bar-chart svg text{font-size:16px}.bar-chart .bar-value{font-size:18px}.stat-box b{display:block;overflow-wrap:anywhere}.heat-table td button{font-size:.875rem}nav{flex-wrap:wrap}
 @media(max-width:760px){.scroll-chart svg{min-width:800px}}
+
+.bar-chart{height:220px;overflow-x:auto}.bar-chart svg text{font-size:12px}.bar-chart .bar-value{font-size:13px}

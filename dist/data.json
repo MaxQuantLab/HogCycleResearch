@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-02",
   "history": [
-    "2021-01",
+    "2016-01",
     "2025-12"
   ],
   "catalog": [
@@ -15,8 +15,8 @@
       "effect": "现货价格基准；与出场价分开比较。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 51,
-      "historyCount": 43,
+      "count": 78,
+      "historyCount": 70,
       "latest": {
         "metric": "hog",
         "date": "2026-08",
@@ -27,7 +27,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -40,8 +40,8 @@
       "effect": "消费端价格；传导通常慢于生猪价格。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 62,
-      "historyCount": 54,
+      "count": 89,
+      "historyCount": 81,
       "latest": {
         "metric": "pork",
         "date": "2026-08",
@@ -52,7 +52,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -65,8 +65,8 @@
       "effect": "反映补栏意愿，也影响外购仔猪育肥成本。",
       "lag": "约5—6个月",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 64,
-      "historyCount": 56,
+      "count": 91,
+      "historyCount": 83,
       "latest": {
         "metric": "piglet",
         "date": "2026-08",
@@ -77,7 +77,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -90,8 +90,8 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 49,
-      "historyCount": 41,
+      "count": 75,
+      "historyCount": 67,
       "latest": {
         "metric": "corn",
         "date": "2026-08",
@@ -102,7 +102,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -115,8 +115,8 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 49,
-      "historyCount": 41,
+      "count": 66,
+      "historyCount": 58,
       "latest": {
         "metric": "meal",
         "date": "2026-08",
@@ -127,7 +127,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -140,8 +140,8 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 49,
-      "historyCount": 41,
+      "count": 76,
+      "historyCount": 68,
       "latest": {
         "metric": "feed",
         "date": "2026-08",
@@ -152,7 +152,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -177,7 +177,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -190,8 +190,8 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 49,
-      "historyCount": 41,
+      "count": 66,
+      "historyCount": 58,
       "latest": {
         "metric": "beef",
         "date": "2026-08",
@@ -202,7 +202,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -215,8 +215,8 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 49,
-      "historyCount": 41,
+      "count": 66,
+      "historyCount": 58,
       "latest": {
         "metric": "lamb",
         "date": "2026-08",
@@ -227,7 +227,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -240,8 +240,8 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 47,
-      "historyCount": 39,
+      "count": 64,
+      "historyCount": 56,
       "latest": {
         "metric": "egg",
         "date": "2026-08",
@@ -252,7 +252,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -265,8 +265,8 @@
       "effect": "衡量相对价格与养殖压力，不能单独判断估值或买点。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 67,
-      "historyCount": 59,
+      "count": 94,
+      "historyCount": 86,
       "latest": {
         "metric": "ratio_mara",
         "date": "2026-08",
@@ -277,7 +277,7 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -302,7 +302,7 @@
         "yoy": "-22.6%",
         "mom": "2.2%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -327,7 +327,7 @@
         "yoy": "-18.0%",
         "mom": "0.0%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -352,7 +352,7 @@
         "yoy": "-20.5%",
         "mom": "2.1%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -377,7 +377,7 @@
         "yoy": "-14.8%",
         "mom": "3.1%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -402,7 +402,7 @@
         "yoy": "-13.6%",
         "mom": "0.8%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -427,7 +427,7 @@
         "yoy": "-14.7%",
         "mom": "0.8%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -452,7 +452,7 @@
         "yoy": "-29.6%",
         "mom": "-3.9%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -465,8 +465,8 @@
       "effect": "未来供给的领先指标，必须结合繁殖效率。",
       "lag": "通常约9—11个月",
       "agency": "国家统计局 / 农业农村部",
-      "count": 43,
-      "historyCount": 42,
+      "count": 48,
+      "historyCount": 47,
       "latest": {
         "metric": "sows",
         "date": "2026-06",
@@ -477,8 +477,8 @@
         "yoy": "-6.5%",
         "mom": null
       },
-      "expectedHistory": 60,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 120,
+      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。 2016—2018未取得与现行头数口径可比的存栏值；旧400县监测主要公布增减幅，2018年样本调整，不拼接为头数。"
     },
     {
       "id": "inventory",
@@ -490,8 +490,8 @@
       "effect": "供给蓄水池；不能全部理解为近期可出栏猪。",
       "lag": "分年龄约0—6个月",
       "agency": "国家统计局",
-      "count": 18,
-      "historyCount": 17,
+      "count": 23,
+      "historyCount": 22,
       "latest": {
         "metric": "inventory",
         "date": "2026-06",
@@ -502,7 +502,7 @@
         "yoy": "0.1%",
         "mom": null
       },
-      "expectedHistory": 20,
+      "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -515,8 +515,8 @@
       "effect": "已兑现供应量。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 18,
-      "historyCount": 17,
+      "count": 23,
+      "historyCount": 22,
       "latest": {
         "metric": "outbound_ytd",
         "date": "2026-06",
@@ -527,7 +527,7 @@
         "yoy": "1.7%",
         "mom": null
       },
-      "expectedHistory": 20,
+      "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -540,8 +540,8 @@
       "effect": "比单看出栏头数更接近肉的实际供应。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 18,
-      "historyCount": 17,
+      "count": 23,
+      "historyCount": 22,
       "latest": {
         "metric": "pork_ytd",
         "date": "2026-06",
@@ -552,7 +552,7 @@
         "yoy": "3.3%",
         "mom": null
       },
-      "expectedHistory": 20,
+      "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -577,7 +577,7 @@
         "yoy": "23.7%",
         "mom": "-6.5%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "2025年7月结束原范围，后续单列全部定点企业。"
     },
     {
@@ -602,7 +602,7 @@
         "yoy": "12.1%",
         "mom": "4.0%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "2025年7月启用新统计范围，本版已取得4个历史月份。"
     },
     {
@@ -627,7 +627,7 @@
         "yoy": "-4.4%",
         "mom": "-0.2%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -652,7 +652,7 @@
         "yoy": "—",
         "mom": "—"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -677,7 +677,7 @@
         "yoy": "-27.6%",
         "mom": "-5.6%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -702,7 +702,7 @@
         "yoy": "-0.1%",
         "mom": "-0.6%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -727,7 +727,7 @@
         "yoy": "—",
         "mom": "—"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -752,7 +752,7 @@
         "yoy": "-27.9%",
         "mom": "-4.4%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "截至2025年8月；后续联合月报未继续列出，不能当作当前成本。"
     },
     {
@@ -777,7 +777,7 @@
         "yoy": "-28.9%",
         "mom": "-5.3%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -802,7 +802,7 @@
         "yoy": "-11.1%",
         "mom": "-8.9%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -827,7 +827,7 @@
         "yoy": "65.1%",
         "mom": "-17.8%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -852,7 +852,7 @@
         "yoy": "-26.2%",
         "mom": "-20.2%"
       },
-      "expectedHistory": 60,
+      "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     },
     {
@@ -865,8 +865,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 7,
+      "historyCount": 7,
       "latest": {
         "metric": "sows_annual",
         "date": "2025-12",
@@ -877,8 +877,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集7/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。 2016—2018未取得与现行头数口径可比的存栏值；旧400县监测主要公布增减幅，2018年样本调整，不拼接为头数。"
     },
     {
       "id": "inventory_annual",
@@ -890,8 +890,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "inventory_annual",
         "date": "2025-12",
@@ -902,8 +902,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "outbound_annual",
@@ -915,8 +915,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "outbound_annual",
         "date": "2025-12",
@@ -927,8 +927,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "pork_annual",
@@ -940,8 +940,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "pork_annual",
         "date": "2025-12",
@@ -952,8 +952,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "poultry_annual",
@@ -965,8 +965,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "poultry_annual",
         "date": "2025-12",
@@ -977,8 +977,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "beef_annual",
@@ -990,8 +990,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "beef_annual",
         "date": "2025-12",
@@ -1002,8 +1002,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "lamb_annual",
@@ -1015,8 +1015,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "lamb_annual",
         "date": "2025-12",
@@ -1027,8 +1027,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "meat_annual",
@@ -1040,8 +1040,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "meat_annual",
         "date": "2025-12",
@@ -1052,8 +1052,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "eggs_annual",
@@ -1065,8 +1065,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "eggs_annual",
         "date": "2025-12",
@@ -1077,8 +1077,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "corn_annual",
@@ -1090,8 +1090,8 @@
       "effect": "供需与生产成本的年度结构指标，不能代替短期交易信号。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "corn_annual",
         "date": "2025-12",
@@ -1102,8 +1102,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "soy_annual",
@@ -1127,8 +1127,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "hog_ppi",
@@ -1152,8 +1152,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "corn_ppi",
@@ -1177,8 +1177,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "consumption_annual",
@@ -1202,8 +1202,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "imports_annual",
@@ -1227,8 +1227,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "offal_imports_annual",
@@ -1252,8 +1252,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "exports_annual",
@@ -1277,8 +1277,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "offal_exports_annual",
@@ -1302,8 +1302,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "carcass_proxy",
@@ -1315,8 +1315,8 @@
       "effect": "揭示头数与肉量可能分化；也受统计范围和结构变化影响。",
       "lag": "当期",
       "agency": "根据国家统计局数据计算",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "carcass_proxy",
         "date": "2025-12",
@@ -1327,8 +1327,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "availability_annual",
@@ -1352,8 +1352,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "restaurant_annual",
@@ -1365,8 +1365,8 @@
       "effect": "反映外食活动变化，不能把收入增长等同肉类消费量增长。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "restaurant_annual",
         "date": "2025-12",
@@ -1377,8 +1377,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "pigfeed_annual",
@@ -1402,8 +1402,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "2021—2025年度五期完整；年度落点为12月，不代表发布日期。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "industrialfeed_annual",
@@ -1427,8 +1427,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "2021—2025年度五期完整；年度落点为12月，不代表发布日期。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "population_annual",
@@ -1452,8 +1452,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "2021—2025年度五期完整；年度落点为12月，不代表发布日期。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集5/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "income_annual",
@@ -1465,8 +1465,8 @@
       "effect": "购买力影响需求结构，但收入增长不必然增加猪肉数量。",
       "lag": "年度结构变化",
       "agency": "国家统计局",
-      "count": 5,
-      "historyCount": 5,
+      "count": 10,
+      "historyCount": 10,
       "latest": {
         "metric": "income_annual",
         "date": "2025-12",
@@ -1477,8 +1477,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "2021—2025年度五期完整；年度落点为12月，不代表发布日期。"
+      "expectedHistory": 10,
+      "coverageNote": "2016—2025已收集10/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
     },
     {
       "id": "lh_daily_volume_annual",
@@ -1502,8 +1502,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。"
+      "expectedHistory": 10,
+      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。 生猪期货2021年上市，2016—2020无LH交易数据。"
     },
     {
       "id": "lh_daily_oi_annual",
@@ -1527,8 +1527,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。"
+      "expectedHistory": 10,
+      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。 生猪期货2021年上市，2016—2020无LH交易数据。"
     },
     {
       "id": "lh_volume_annual",
@@ -1552,8 +1552,8 @@
         "yoy": null,
         "mom": null
       },
-      "expectedHistory": 5,
-      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。"
+      "expectedHistory": 10,
+      "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。 生猪期货2021年上市，2016—2020无LH交易数据。"
     }
   ],
   "observations": [
@@ -1604,6 +1604,176 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "计算值",
       "note": "来源还包括对应年份进口、出口指标所链接的海关联合发布表。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2016-01",
+      "value": 63.38,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2019-07",
+      "value": 70.0,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2019-08",
+      "value": 72.75,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2019-09",
+      "value": 77.41,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2019-12",
+      "value": 82.17,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-01",
+      "value": 83.4,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-02",
+      "value": 85.54,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-03",
+      "value": 84.34,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-04",
+      "value": 83.06,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-05",
+      "value": 82.2,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-06",
+      "value": 81.89,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-07",
+      "value": 82.6,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-08",
+      "value": 83.6,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-09",
+      "value": 84.92,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-10",
+      "value": 85.49,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-11",
+      "value": 85.57,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef",
+      "date": "2020-12",
+      "value": 86.56,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
       "yoy": null,
       "mom": null
     },
@@ -2099,6 +2269,56 @@
     },
     {
       "metric": "beef_annual",
+      "date": "2016-12",
+      "value": 717.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef_annual",
+      "date": "2017-12",
+      "value": 726.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef_annual",
+      "date": "2018-12",
+      "value": 644.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef_annual",
+      "date": "2019-12",
+      "value": 667.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef_annual",
+      "date": "2020-12",
+      "value": 672.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "beef_annual",
       "date": "2021-12",
       "value": 698.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -2144,6 +2364,56 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "carcass_proxy",
+      "date": "2016-12",
+      "value": 77.36,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "计算值",
+      "note": "产量÷出栏×1000；不是活重；原始发布版本可能修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "carcass_proxy",
+      "date": "2017-12",
+      "value": 77.55,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "计算值",
+      "note": "产量÷出栏×1000；不是活重；原始发布版本可能修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "carcass_proxy",
+      "date": "2018-12",
+      "value": 77.89,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "计算值",
+      "note": "产量÷出栏×1000；不是活重；原始发布版本可能修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "carcass_proxy",
+      "date": "2019-12",
+      "value": 78.19,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "计算值",
+      "note": "产量÷出栏×1000；不是活重；原始发布版本可能修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "carcass_proxy",
+      "date": "2020-12",
+      "value": 78.04,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "计算值",
+      "note": "产量÷出栏×1000；不是活重；原始发布版本可能修订。",
       "yoy": null,
       "mom": null
     },
@@ -3109,6 +3379,266 @@
     },
     {
       "metric": "corn",
+      "date": "2016-01",
+      "value": 2.1,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2016-05",
+      "value": 1.97,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2016-06",
+      "value": 2.03,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2017-01",
+      "value": 1.9,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2017-04",
+      "value": 1.85,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2017-11",
+      "value": 1.94,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2017-12",
+      "value": 1.95,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2018-02",
+      "value": 2.01,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-01",
+      "value": 2.06,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-02",
+      "value": 2.05,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-07",
+      "value": 2.11,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-08",
+      "value": 2.12,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-09",
+      "value": 2.13,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2019-12",
+      "value": 2.1,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-01",
+      "value": 2.09,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-02",
+      "value": 2.13,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-03",
+      "value": 2.12,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-04",
+      "value": 2.14,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-05",
+      "value": 2.21,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-06",
+      "value": 2.24,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-07",
+      "value": 2.31,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-08",
+      "value": 2.43,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-09",
+      "value": 2.45,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-10",
+      "value": 2.5,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-11",
+      "value": 2.57,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
+      "date": "2020-12",
+      "value": 2.62,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn",
       "date": "2021-01",
       "value": 2.82,
       "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
@@ -3599,6 +4129,56 @@
     },
     {
       "metric": "corn_annual",
+      "date": "2016-12",
+      "value": 4391.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。原公报万吨×0.2换算亿斤。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn_annual",
+      "date": "2017-12",
+      "value": 4317.8,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。原公报万吨×0.2换算亿斤。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn_annual",
+      "date": "2018-12",
+      "value": 5146.6,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。原公报万吨×0.2换算亿斤。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn_annual",
+      "date": "2019-12",
+      "value": 5215.0,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202001/t20200119_1764894.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn_annual",
+      "date": "2020-12",
+      "value": 5213.0,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202012/t20201211_1808749.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "corn_annual",
       "date": "2021-12",
       "value": 5451.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -3694,6 +4274,176 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2016-01",
+      "value": 10.1,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2019-07",
+      "value": 10.38,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2019-08",
+      "value": 11.29,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2019-09",
+      "value": 12.37,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2019-12",
+      "value": 11.63,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-01",
+      "value": 10.96,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-02",
+      "value": 9.9,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-03",
+      "value": 9.34,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-04",
+      "value": 8.98,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-05",
+      "value": 8.51,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-06",
+      "value": 8.13,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-07",
+      "value": 8.25,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-08",
+      "value": 9.35,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-09",
+      "value": 9.62,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-10",
+      "value": 9.41,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-11",
+      "value": 9.22,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "egg",
+      "date": "2020-12",
+      "value": 9.46,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
       "yoy": null,
       "mom": null
     },
@@ -4169,6 +4919,56 @@
     },
     {
       "metric": "eggs_annual",
+      "date": "2016-12",
+      "value": 3095.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "eggs_annual",
+      "date": "2017-12",
+      "value": 3070.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "eggs_annual",
+      "date": "2018-12",
+      "value": 3128.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "eggs_annual",
+      "date": "2019-12",
+      "value": 3309.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "eggs_annual",
+      "date": "2020-12",
+      "value": 3468.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "eggs_annual",
       "date": "2021-12",
       "value": 3409.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -4594,6 +5394,276 @@
       "url": "https://www.boyar.cn/article/1248731.html",
       "method": "官方表转载",
       "note": "",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2016-01",
+      "value": 3.08,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2016-05",
+      "value": 3.0,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2016-06",
+      "value": 3.06,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2017-01",
+      "value": 3.09,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2017-04",
+      "value": 3.0,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2017-11",
+      "value": 3.0,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2017-12",
+      "value": 3.02,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2018-02",
+      "value": 3.01,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2018-07",
+      "value": 2.99,
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-01",
+      "value": 3.05,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-02",
+      "value": 3.03,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-07",
+      "value": 3.02,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-08",
+      "value": 3.03,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-09",
+      "value": 3.06,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2019-12",
+      "value": 3.08,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-01",
+      "value": 3.07,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-02",
+      "value": 3.11,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-03",
+      "value": 3.12,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-04",
+      "value": 3.15,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-05",
+      "value": 3.16,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-06",
+      "value": 3.16,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-07",
+      "value": 3.19,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-08",
+      "value": 3.25,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-09",
+      "value": 3.27,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-10",
+      "value": 3.31,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-11",
+      "value": 3.36,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "feed",
+      "date": "2020-12",
+      "value": 3.4,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
       "yoy": null,
       "mom": null
     },
@@ -5526,6 +6596,276 @@
       "note": "2026年8月份全国二元母猪销售价格（元/公斤）",
       "yoy": "-18.0%",
       "mom": "0.0%"
+    },
+    {
+      "metric": "hog",
+      "date": "2016-01",
+      "value": 17.62,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2016-05",
+      "value": 20.45,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2016-06",
+      "value": 20.41,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2017-01",
+      "value": 18.22,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2017-04",
+      "value": 16.0,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2017-11",
+      "value": 14.47,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2017-12",
+      "value": 15.07,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2018-02",
+      "value": 14.06,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2018-07",
+      "value": 12.02,
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-01",
+      "value": 13.12,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-02",
+      "value": 12.55,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-07",
+      "value": 17.68,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-08",
+      "value": 21.89,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-09",
+      "value": 26.83,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2019-12",
+      "value": 33.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-01",
+      "value": 35.38,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-02",
+      "value": 37.11,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-03",
+      "value": 36.19,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-04",
+      "value": 33.7,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-05",
+      "value": 29.83,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-06",
+      "value": 31.48,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-07",
+      "value": 36.25,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-08",
+      "value": 37.15,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-09",
+      "value": 35.8,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-10",
+      "value": 31.4,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-11",
+      "value": 29.71,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "hog",
+      "date": "2020-12",
+      "value": 33.14,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
     },
     {
       "metric": "hog",
@@ -6979,6 +8319,56 @@
     },
     {
       "metric": "income_annual",
+      "date": "2016-12",
+      "value": 23821.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "income_annual",
+      "date": "2017-12",
+      "value": 25974.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "income_annual",
+      "date": "2018-12",
+      "value": 28228.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "income_annual",
+      "date": "2019-12",
+      "value": 30733.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "income_annual",
+      "date": "2020-12",
+      "value": 32189.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "income_annual",
       "date": "2021-12",
       "value": 35128,
       "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901393.html",
@@ -7074,6 +8464,56 @@
       "url": "https://www.chinafeed.org.cn/hyfx/202602/t20260209_469703.htm",
       "method": "原表",
       "note": "年度原始发布值；2023、2024报告网页迁移至2026目录。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2016-12",
+      "value": 43504.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2017-12",
+      "value": 43325.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2018-12",
+      "value": 42817.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2019-12",
+      "value": 31041.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2020-12",
+      "value": 40650.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
       "yoy": null,
       "mom": null
     },
@@ -7259,6 +8699,56 @@
     },
     {
       "metric": "inventory_annual",
+      "date": "2016-12",
+      "value": 43504.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory_annual",
+      "date": "2017-12",
+      "value": 43325.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory_annual",
+      "date": "2018-12",
+      "value": 42817.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory_annual",
+      "date": "2019-12",
+      "value": 31041.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory_annual",
+      "date": "2020-12",
+      "value": 40650.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "inventory_annual",
       "date": "2021-12",
       "value": 44922.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -7304,6 +8794,176 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2016-01",
+      "value": 57.66,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2019-07",
+      "value": 69.2,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2019-08",
+      "value": 71.17,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2019-09",
+      "value": 74.62,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2019-12",
+      "value": 79.94,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-01",
+      "value": 81.17,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-02",
+      "value": 82.33,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-03",
+      "value": 81.05,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-04",
+      "value": 79.64,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-05",
+      "value": 78.54,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-06",
+      "value": 78.19,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-07",
+      "value": 78.92,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-08",
+      "value": 79.92,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-09",
+      "value": 80.74,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-10",
+      "value": 81.35,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-11",
+      "value": 81.66,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb",
+      "date": "2020-12",
+      "value": 83.29,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
       "yoy": null,
       "mom": null
     },
@@ -7794,6 +9454,56 @@
       "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
       "method": "原表",
       "note": "",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb_annual",
+      "date": "2016-12",
+      "value": 459.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb_annual",
+      "date": "2017-12",
+      "value": 468.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb_annual",
+      "date": "2018-12",
+      "value": 475.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb_annual",
+      "date": "2019-12",
+      "value": 488.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "lamb_annual",
+      "date": "2020-12",
+      "value": 492.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
       "yoy": null,
       "mom": null
     },
@@ -8779,6 +10489,176 @@
     },
     {
       "metric": "meal",
+      "date": "2016-01",
+      "value": 3.08,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2019-07",
+      "value": 3.2,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2019-08",
+      "value": 3.21,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2019-09",
+      "value": 3.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2019-12",
+      "value": 3.3,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-01",
+      "value": 3.24,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-02",
+      "value": 3.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-03",
+      "value": 3.29,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-04",
+      "value": 3.39,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-05",
+      "value": 3.3,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-06",
+      "value": 3.23,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-07",
+      "value": 3.23,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-08",
+      "value": 3.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-09",
+      "value": 3.29,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-10",
+      "value": 3.4,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-11",
+      "value": 3.47,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
+      "date": "2020-12",
+      "value": 3.46,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meal",
       "date": "2021-01",
       "value": 3.79,
       "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
@@ -9264,6 +11144,56 @@
       "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
       "method": "原表",
       "note": "",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meat_annual",
+      "date": "2016-12",
+      "value": 8364.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meat_annual",
+      "date": "2017-12",
+      "value": 8431.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meat_annual",
+      "date": "2018-12",
+      "value": 8517.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meat_annual",
+      "date": "2019-12",
+      "value": 7649.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "meat_annual",
+      "date": "2020-12",
+      "value": 7639.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
       "yoy": null,
       "mom": null
     },
@@ -10149,6 +12079,56 @@
     },
     {
       "metric": "outbound_annual",
+      "date": "2016-12",
+      "value": 68502.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_annual",
+      "date": "2017-12",
+      "value": 68861.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_annual",
+      "date": "2018-12",
+      "value": 69382.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_annual",
+      "date": "2019-12",
+      "value": 54419.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_annual",
+      "date": "2020-12",
+      "value": 52704.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_annual",
       "date": "2021-12",
       "value": 67128.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -10194,6 +12174,56 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2016-12",
+      "value": 68502.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2017-12",
+      "value": 68861.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2018-12",
+      "value": 69382.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2019-12",
+      "value": 54419.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2020-12",
+      "value": 52704.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
       "yoy": null,
       "mom": null
     },
@@ -10424,6 +12454,276 @@
       "url": "https://www.chinafeed.org.cn/hyfx/202602/t20260209_469703.htm",
       "method": "原表",
       "note": "年度原始发布值；2023、2024报告网页迁移至2026目录，统计年度按报告标题识别。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2016-01",
+      "value": 32.18,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2016-05",
+      "value": 51.01,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2016-06",
+      "value": 52.39,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2017-01",
+      "value": 41.01,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2017-04",
+      "value": 42.97,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2017-11",
+      "value": 30.89,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2017-12",
+      "value": 30.5,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2018-02",
+      "value": 29.84,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2018-07",
+      "value": 24.27,
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-01",
+      "value": 22.0,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-02",
+      "value": 23.04,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-07",
+      "value": 42.61,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-08",
+      "value": 47.07,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-09",
+      "value": 55.87,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2019-12",
+      "value": 75.41,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-01",
+      "value": 77.49,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-02",
+      "value": 81.7,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-03",
+      "value": 91.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-04",
+      "value": 98.95,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-05",
+      "value": 96.28,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-06",
+      "value": 96.14,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-07",
+      "value": 104.27,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-08",
+      "value": 108.64,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-09",
+      "value": 106.63,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-10",
+      "value": 93.99,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-11",
+      "value": 83.27,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "piglet",
+      "date": "2020-12",
+      "value": 82.6,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
       "yoy": null,
       "mom": null
     },
@@ -11119,6 +13419,276 @@
     },
     {
       "metric": "pork",
+      "date": "2016-01",
+      "value": 27.66,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2016-05",
+      "value": 30.97,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2016-06",
+      "value": 31.29,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2017-01",
+      "value": 28.95,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2017-04",
+      "value": 26.59,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2017-11",
+      "value": 24.77,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2017-12",
+      "value": 25.11,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2018-02",
+      "value": 24.98,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2018-07",
+      "value": 20.4,
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-01",
+      "value": 23.16,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-02",
+      "value": 22.55,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-07",
+      "value": 28.04,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-08",
+      "value": 33.95,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-09",
+      "value": 42.0,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2019-12",
+      "value": 51.09,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-01",
+      "value": 53.8,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-02",
+      "value": 58.89,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-03",
+      "value": 57.23,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-04",
+      "value": 52.96,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-05",
+      "value": 47.63,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-06",
+      "value": 47.88,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-07",
+      "value": 53.94,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
+      "method": "原表同期值",
+      "note": "原表去年同期栏；不是根据同比百分比反推。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-08",
+      "value": 56.03,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-09",
+      "value": 54.79,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-10",
+      "value": 49.91,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的2020年10月全国月均价格。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-11",
+      "value": 46.3,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表上月值",
+      "note": "原表上月栏；不是插值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
+      "date": "2020-12",
+      "value": 49.63,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "原表上月值",
+      "note": "来自原表“上月”栏",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork",
       "date": "2021-01",
       "value": 53.63,
       "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
@@ -11739,6 +14309,56 @@
     },
     {
       "metric": "pork_annual",
+      "date": "2016-12",
+      "value": 5299.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_annual",
+      "date": "2017-12",
+      "value": 5340.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_annual",
+      "date": "2018-12",
+      "value": 5404.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_annual",
+      "date": "2019-12",
+      "value": 4255.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_annual",
+      "date": "2020-12",
+      "value": 4113.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_annual",
       "date": "2021-12",
       "value": 5296.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -11784,6 +14404,56 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2016-12",
+      "value": 5299.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2017-12",
+      "value": 5340.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2018-12",
+      "value": 5404.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2019-12",
+      "value": 4255.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2020-12",
+      "value": 4113.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "四季度末存栏 / 1—12月累计；当年原始发布版本。",
       "yoy": null,
       "mom": null
     },
@@ -11969,6 +14639,56 @@
     },
     {
       "metric": "poultry_annual",
+      "date": "2016-12",
+      "value": 1888.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "poultry_annual",
+      "date": "2017-12",
+      "value": 1897.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "poultry_annual",
+      "date": "2018-12",
+      "value": 1994.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "poultry_annual",
+      "date": "2019-12",
+      "value": 2239.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "poultry_annual",
+      "date": "2020-12",
+      "value": 2361.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "poultry_annual",
       "date": "2021-12",
       "value": 2380.0,
       "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896581.html",
@@ -12014,6 +14734,276 @@
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962332.html",
       "method": "原表",
       "note": "年度值；历年原始发布版本可能存在后续修订。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2016-01",
+      "value": 8.39,
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "method": "官方报告转载",
+      "note": "央视三农转载农业部2016年1月价格监测报告，统计期不是转载日期。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2016-05",
+      "value": 10.38,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2016-06",
+      "value": 10.06,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2017-01",
+      "value": 9.59,
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2017-04",
+      "value": 8.63,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2017-11",
+      "value": 7.44,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2017-12",
+      "value": 7.74,
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2018-02",
+      "value": 7.0,
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2018-07",
+      "value": 5.93,
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-01",
+      "value": 6.36,
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-02",
+      "value": 6.13,
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-07",
+      "value": 8.38,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-08",
+      "value": 10.33,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-09",
+      "value": 12.6,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2019-12",
+      "value": 15.85,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-01",
+      "value": 16.93,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-02",
+      "value": 17.42,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-03",
+      "value": 17.07,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-04",
+      "value": 15.72,
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "method": "原表",
+      "note": "农业农村部农产品供需形势分析月报；全国500个集贸市场月均值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-05",
+      "value": 13.5,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-06",
+      "value": 14.05,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-07",
+      "value": 15.69,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "method": "原表",
+      "note": "原报告公布的月度猪粮比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-08",
+      "value": 15.29,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "method": "原表",
+      "note": "原报告公布的月度猪粮比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-09",
+      "value": 14.61,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "method": "原表",
+      "note": "原报告公布的月度猪粮比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-10",
+      "value": 12.56,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
+      "method": "原表",
+      "note": "原报告公布的月度猪粮比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-11",
+      "value": 11.56,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "计算值",
+      "note": "同统计期全国集贸生猪月均价÷玉米月均价；四舍五入可能不同于原公布比值。玉米来源：https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "ratio_mara",
+      "date": "2020-12",
+      "value": 12.65,
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "method": "原表",
+      "note": "原报告公布的月度猪粮比。",
       "yoy": null,
       "mom": null
     },
@@ -13086,6 +16076,56 @@
       "note": "2025年8月份猪粮比价",
       "yoy": "-29.6%",
       "mom": "-3.9%"
+    },
+    {
+      "metric": "restaurant_annual",
+      "date": "2016-12",
+      "value": 35799.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "restaurant_annual",
+      "date": "2017-12",
+      "value": 39644.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "restaurant_annual",
+      "date": "2018-12",
+      "value": 42716.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "restaurant_annual",
+      "date": "2019-12",
+      "value": 46721.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "restaurant_annual",
+      "date": "2020-12",
+      "value": 39527.0,
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "method": "原表",
+      "note": "当年原始发布版本；2018年起农业普查修订可能改变历史基数，跨年按值计算的增速不等同官方可比同比。",
+      "yoy": null,
+      "mom": null
     },
     {
       "metric": "restaurant_annual",
@@ -15979,6 +19019,56 @@
     },
     {
       "metric": "sows",
+      "date": "2019-12",
+      "value": 3080.0,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202004/t20200420_1764929.html",
+      "method": "计算值",
+      "note": "2020一季度末3381万头减去原文公布的较上年末增加301万头。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows",
+      "date": "2020-03",
+      "value": 3381.0,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202004/t20200420_1764929.html",
+      "method": "原表",
+      "note": "一季度末国家统计局调查值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows",
+      "date": "2020-06",
+      "value": 3629.0,
+      "url": "https://jhs.moa.gov.cn/gzdt/202007/t20200724_6349325.htm",
+      "method": "原表",
+      "note": "二季度末全国能繁母猪存栏，农业农村部原文。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows",
+      "date": "2020-09",
+      "value": 3822.0,
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202010/t20201019_1794686.html",
+      "method": "原表",
+      "note": "三季度末国家统计局调查值。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows",
+      "date": "2020-12",
+      "value": 4161.0,
+      "url": "https://nyncj.changde.gov.cn/zhdt/gsnnydt/content_810110",
+      "method": "官方报告转载",
+      "note": "政府农业农村部门转载，明确引用国家统计局年末值；不使用文中其他旧监测基数。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows",
       "date": "2021-12",
       "value": 4329.0,
       "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2021/202112/",
@@ -16405,6 +19495,26 @@
       "method": "原表",
       "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
       "yoy": "-6.5%",
+      "mom": null
+    },
+    {
+      "metric": "sows_annual",
+      "date": "2019-12",
+      "value": 3080.0,
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202004/t20200420_1764929.html",
+      "method": "计算值",
+      "note": "3381−301；来自次年一季度官方报告的年末基数，早期旧监测推算值不拼接。",
+      "yoy": null,
+      "mom": null
+    },
+    {
+      "metric": "sows_annual",
+      "date": "2020-12",
+      "value": 4161.0,
+      "url": "https://nyncj.changde.gov.cn/zhdt/gsnnydt/content_810110",
+      "method": "官方报告转载",
+      "note": "政府农业农村部门转载，明确引用国家统计局年末值；不使用文中其他旧监测基数。",
+      "yoy": null,
       "mom": null
     },
     {
@@ -16956,7 +20066,7 @@
       "effect": "有效产能≈母猪数量×繁殖效率；效率改善可抵消母猪减少。",
       "required": "母猪场生产记录；样本覆盖、品种与时间口径必须一致。",
       "lag": "约9—11个月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "供给",
@@ -16964,7 +20074,7 @@
       "effect": "比母猪头数更接近未来肥猪供给。",
       "required": "全国可比月度出生量、断奶量与成活率。",
       "lag": "约5—6个月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "供给",
@@ -16972,7 +20082,7 @@
       "effect": "压栏增重可以让出栏头数下降、肉量仍增加。",
       "required": "育肥猪实测活重、不同体重出栏占比；全国连续样本不足。",
       "lag": "当期至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "供给",
@@ -16980,7 +20090,7 @@
       "effect": "先减少当期上市，再增加后期供给；不能视作永久去产能。",
       "required": "二育买入、退出、库存与样本方法。",
       "lag": "数周至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "供给",
@@ -16988,7 +20098,7 @@
       "effect": "扩产与集中度提升会改变供给弹性；企业样本不是全国总量。",
       "required": "交易所公告与公司月报，剔除种猪仔猪口径差异。",
       "lag": "当期及约1年以上",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "供给",
@@ -16996,15 +20106,15 @@
       "effect": "观察需求承接力度；开工率也受有效产能分母变化影响。",
       "required": "同样本屠宰厂实际开工、订单和销量。",
       "lag": "当期",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "成本",
       "name": "月度猪饲料产量",
       "effect": "观察养殖活动与饲料需求；自产料和配方变化影响解释。",
-      "required": "年度五年值已收集；还需连续月度、同口径分类产量。",
+      "required": "2021—2025年度值已收集；还需2016—2020年度及连续月度、同口径分类产量。",
       "lag": "当期至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "成本",
@@ -17012,7 +20122,7 @@
       "effect": "直接改变每公斤增重成本和每头可售成本。",
       "required": "同规模、同育肥阶段样本的饲料转化率及成活率。",
       "lag": "一个育肥周期",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "成本",
@@ -17020,7 +20130,7 @@
       "effect": "农户收入还受含水率、品质、烘干与本地收购影响。",
       "required": "地区、标准水分、质量等级、到厂/地头口径分开。",
       "lag": "新粮上市季及当期",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "成本",
@@ -17028,7 +20138,7 @@
       "effect": "外购育肥与自繁自养的盈亏线不同。",
       "required": "固定体重仔猪每头价，不用元/公斤价格直接代替。",
       "lag": "约5—6个月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "成本",
@@ -17036,7 +20146,7 @@
       "effect": "会移动成本线，也决定持续亏损时的退出速度。",
       "required": "养殖场全成本调查及区域运价、融资成本。",
       "lag": "当期及后续产能",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "库存",
@@ -17044,7 +20154,7 @@
       "effect": "入库吸收现货，出库增加供应；库存数据可能比猪粮比更接近短期压力。",
       "required": "全国或同样本库存吨数、库容分母及库存年龄。",
       "lag": "当期至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "库存",
@@ -17052,7 +20162,7 @@
       "effect": "计划量不等于成交量；方向、时间和规模共同决定影响。",
       "required": "储备招标、成交、投放公告的逐笔核验。",
       "lag": "当期至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "需求",
@@ -17060,7 +20170,7 @@
       "effect": "决定长期消费结构；总量与人均量应分开观察。",
       "required": "人口总量与居民收入年度值已收集；年龄结构和偏好变化仍缺可比序列。",
       "lag": "年度结构变化",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "需求",
@@ -17068,7 +20178,7 @@
       "effect": "影响消费季节性与备货，但不改变长期产能。",
       "required": "日历与地区消费行为；事件变量不做伪连续数值。",
       "lag": "数周至季度",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "需求",
@@ -17076,7 +20186,7 @@
       "effect": "家庭记账和餐饮收入都无法独立代表全部猪肉消费。",
       "required": "包含外食的肉类量、商超销售、团餐和订单量。",
       "lag": "当期",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "贸易",
@@ -17084,7 +20194,7 @@
       "effect": "改变进口到岸成本与进口利润。",
       "required": "同产品、同贸易条款的到岸价、税率与汇率。",
       "lag": "进口订单至到港",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "贸易",
@@ -17092,7 +20202,7 @@
       "effect": "订单、到港与当期海关进口存在时差。",
       "required": "在途量、冻品报盘、牛禽肉进口量。",
       "lag": "约1—3个月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "政策",
@@ -17100,7 +20210,7 @@
       "effect": "改变进入和退出成本，地区执行强度可能不同。",
       "required": "政策发布时间、实施地区与实际执行；逐事件记录。",
       "lag": "数月至数年",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "冲击",
@@ -17108,7 +20218,7 @@
       "effect": "短期淘汰增加上市、随后有效产能可能下降；隐性损失难统计。",
       "required": "官方疫情事件、淘汰规模、成活率；不能把报告数当实际流行率。",
       "lag": "当期及后续周期",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "冲击",
@@ -17116,15 +20226,15 @@
       "effect": "改变采食、增重、成活、运力及消费。",
       "required": "主产区气象、灾情和交通事件，按地理权重合成。",
       "lag": "当期至数月",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "期货",
       "name": "LH各合约结算价 / 成交 / 持仓",
       "effect": "预期、流动性与仓位共同影响期货价格。",
-      "required": "已有2021、2025部分年度流动性数据；尚未取得连续五年逐合约日行情。",
+      "required": "已有2021、2025部分年度流动性数据；2021年上市后仍缺连续逐合约日行情，上市前没有LH交易数据。",
       "lag": "每日",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "期货",
@@ -17132,7 +20242,7 @@
       "effect": "需同交割地区现货、同日期、同品质；主力切换可能制造跳变。",
       "required": "地区现货与指定合约配对，保留换月规则。",
       "lag": "对应交割月份",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     },
     {
       "group": "期货",
@@ -17140,7 +20250,7 @@
       "effect": "影响可交割供应、资金压力和价格波动。",
       "required": "大商所规则与公告按生效日期整理。",
       "lag": "临近交割与政策生效时",
-      "status": "未取得可比五年序列"
+      "status": "未取得可比十年序列"
     }
   ],
   "sources": [
@@ -17155,6 +20265,12 @@
       "records": 1,
       "first": "2023-12",
       "last": "2023-12"
+    },
+    {
+      "url": "https://jhs.moa.gov.cn/gzdt/202007/t20200724_6349325.htm",
+      "records": 1,
+      "first": "2020-06",
+      "last": "2020-06"
     },
     {
       "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20212001",
@@ -17337,6 +20453,48 @@
       "last": "2025-09"
     },
     {
+      "url": "https://nyncj.changde.gov.cn/zhdt/gsnnydt/content_810110",
+      "records": 2,
+      "first": "2020-12",
+      "last": "2020-12"
+    },
+    {
+      "url": "https://sannong.cntv.cn/2016/02/29/ARTIlQShASw0r1HfjJ4RFviT160229.shtml",
+      "records": 10,
+      "first": "2016-01",
+      "last": "2016-01"
+    },
+    {
+      "url": "https://scs.moa.gov.cn/jcyj/201801/P020220922354121850724.pdf",
+      "records": 6,
+      "first": "2017-12",
+      "last": "2017-12"
+    },
+    {
+      "url": "https://scs.moa.gov.cn/jcyj/201803/P020220922354190110289.pdf",
+      "records": 6,
+      "first": "2018-02",
+      "last": "2018-02"
+    },
+    {
+      "url": "https://scs.moa.gov.cn/jcyj/201808/P020220922354359544834.pdf",
+      "records": 5,
+      "first": "2018-07",
+      "last": "2018-07"
+    },
+    {
+      "url": "https://scs.moa.gov.cn/jcyj/201903/P020220922354572997476.pdf",
+      "records": 6,
+      "first": "2019-02",
+      "last": "2019-02"
+    },
+    {
+      "url": "https://scs.moa.gov.cn/jcyj/202005/P020220922356171551260.pdf",
+      "records": 6,
+      "first": "2020-04",
+      "last": "2020-04"
+    },
+    {
       "url": "https://www.boyar.cn/article/1210747.html",
       "records": 19,
       "first": "2024-08",
@@ -17395,6 +20553,42 @@
       "records": 5,
       "first": "2021-12",
       "last": "2025-12"
+    },
+    {
+      "url": "https://www.moa.gov.cn/hdllm/zbft/scyxxs/xgxw/201702/P020170214611337941254.pdf",
+      "records": 6,
+      "first": "2017-01",
+      "last": "2017-01"
+    },
+    {
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201606/P020160624510496490058.pdf",
+      "records": 6,
+      "first": "2016-05",
+      "last": "2016-05"
+    },
+    {
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201607/P020160721615666595320.pdf",
+      "records": 6,
+      "first": "2016-06",
+      "last": "2016-06"
+    },
+    {
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201705/P020170515592474511120.pdf",
+      "records": 6,
+      "first": "2017-04",
+      "last": "2017-04"
+    },
+    {
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201712/P020180109372913205648.pdf",
+      "records": 6,
+      "first": "2017-11",
+      "last": "2017-11"
+    },
+    {
+      "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/201902/P020190227393753671710.pdf",
+      "records": 6,
+      "first": "2019-01",
+      "last": "2019-01"
     },
     {
       "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2021/202112/",
@@ -17607,45 +20801,75 @@
       "last": "2021-12"
     },
     {
-      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202008/t20200818_359389.htm",
+      "records": 11,
+      "first": "2019-07",
+      "last": "2020-07"
+    },
+    {
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202009/t20200916_361165.htm",
+      "records": 11,
+      "first": "2019-08",
+      "last": "2020-08"
+    },
+    {
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202010/t20201020_362908.htm",
+      "records": 29,
+      "first": "2019-09",
+      "last": "2020-09"
+    },
+    {
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202011/t20201116_364925.htm",
       "records": 10,
-      "first": "2021-01",
+      "first": "2020-10",
+      "last": "2020-10"
+    },
+    {
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202101/t20210115_369062.htm",
+      "records": 21,
+      "first": "2019-12",
+      "last": "2020-12"
+    },
+    {
+      "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm",
+      "records": 29,
+      "first": "2020-01",
       "last": "2021-01"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm",
-      "records": 10,
-      "first": "2021-03",
+      "records": 20,
+      "first": "2020-03",
       "last": "2021-03"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm",
-      "records": 10,
-      "first": "2021-02",
+      "records": 20,
+      "first": "2020-02",
       "last": "2021-02"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm",
-      "records": 10,
-      "first": "2021-04",
+      "records": 14,
+      "first": "2020-04",
       "last": "2021-04"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm",
-      "records": 10,
-      "first": "2021-05",
+      "records": 20,
+      "first": "2020-05",
       "last": "2021-05"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm",
-      "records": 10,
-      "first": "2021-06",
+      "records": 20,
+      "first": "2020-06",
       "last": "2021-06"
     },
     {
       "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm",
-      "records": 10,
-      "first": "2021-07",
+      "records": 19,
+      "first": "2020-07",
       "last": "2021-07"
     },
     {
@@ -17847,6 +21071,36 @@
       "last": "2026-06"
     },
     {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html",
+      "records": 15,
+      "first": "2016-12",
+      "last": "2016-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html",
+      "records": 15,
+      "first": "2017-12",
+      "last": "2017-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html",
+      "records": 15,
+      "first": "2018-12",
+      "last": "2018-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html",
+      "records": 14,
+      "first": "2019-12",
+      "last": "2019-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html",
+      "records": 14,
+      "first": "2020-12",
+      "last": "2020-12"
+    },
+    {
       "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901393.html",
       "records": 2,
       "first": "2021-12",
@@ -17895,6 +21149,24 @@
       "last": "2025-12"
     },
     {
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202001/t20200119_1764894.html",
+      "records": 1,
+      "first": "2019-12",
+      "last": "2019-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202004/t20200420_1764929.html",
+      "records": 3,
+      "first": "2019-12",
+      "last": "2020-03"
+    },
+    {
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202012/t20201211_1808749.html",
+      "records": 1,
+      "first": "2020-12",
+      "last": "2020-12"
+    },
+    {
       "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202401/t20240118_1946723.html",
       "records": 15,
       "first": "2023-12",
@@ -17905,6 +21177,12 @@
       "records": 15,
       "first": "2024-12",
       "last": "2024-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202010/t20201019_1794686.html",
+      "records": 1,
+      "first": "2020-09",
+      "last": "2020-09"
     },
     {
       "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202301/t20230117_1892127.html",

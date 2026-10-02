@@ -3,7 +3,7 @@
  const monthNumber=d=>{const [y,m]=d.split('-').map(Number);return y*12+m-1;};
  const monthString=n=>Math.floor(n/12)+'-'+String(n%12+1).padStart(2,'0');
  const shift=(d,n)=>monthString(monthNumber(d)+n);
- const inPeriod=(d,p)=>p==='all'?d>='2021-01'&&d<='2026-08':p==='history'?d>='2021-01'&&d<='2025-12':d.startsWith(p+'-');
+ const inPeriod=(d,p)=>p==='all'?d>='2016-01'&&d<='2026-08':p==='history'?d>='2016-01'&&d<='2025-12':d.startsWith(p+'-');
  const series=(data,id,original=false)=>data.observations.filter(o=>o.metric===id&&(!original||!['环比反推','计算值'].includes(o.method))).sort((a,b)=>a.date.localeCompare(b.date));
  function transformed(rows,mode){if(mode!=='yoy')return rows.map(r=>({...r,plot:r.value}));const map=new Map(rows.map(r=>[r.date,r]));return rows.flatMap(r=>{const prev=map.get(shift(r.date,-12));return prev&&prev.value>0?[{...r,plot:(r.value/prev.value-1)*100,previous:prev.value}]:[];});}
  function prepare(data,a,b,period='history',mode='index',lag=0,original=false){
