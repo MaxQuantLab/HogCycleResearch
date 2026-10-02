@@ -1,0 +1,422 @@
+[
+  {
+    "date": "2021-01",
+    "ratio": 12.7,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202102/t20210226_371604.htm"
+  },
+  {
+    "date": "2021-02",
+    "ratio": 10.81,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376775.htm"
+  },
+  {
+    "date": "2021-03",
+    "ratio": 9.6,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202104/t20210422_376773.htm"
+  },
+  {
+    "date": "2021-04",
+    "ratio": 8.2,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202105/t20210521_378849.htm"
+  },
+  {
+    "date": "2021-05",
+    "ratio": 6.7,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202106/t20210630_381746.htm"
+  },
+  {
+    "date": "2021-06",
+    "ratio": 5.2,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210901_386328.htm"
+  },
+  {
+    "date": "2021-07",
+    "ratio": 5.3,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202109/t20210902_386392.htm"
+  },
+  {
+    "date": "2021-08",
+    "ratio": 5.17,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/EN/abstract/abstract627.shtml"
+  },
+  {
+    "date": "2021-09",
+    "ratio": 4.6,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20212001"
+  },
+  {
+    "date": "2021-10",
+    "ratio": 4.57,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/abstract/abstract770.shtml"
+  },
+  {
+    "date": "2021-11",
+    "ratio": 5.99,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20212401"
+  },
+  {
+    "date": "2021-12",
+    "ratio": 6.07,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_26.shtml"
+  },
+  {
+    "date": "2022-01",
+    "ratio": 5.42,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202203/t20220307_398774.htm"
+  },
+  {
+    "date": "2022-02",
+    "ratio": 4.9,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/jghq/202203/t20220307_398775.htm"
+  },
+  {
+    "date": "2022-03",
+    "ratio": 4.37,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20220801"
+  },
+  {
+    "date": "2022-04",
+    "ratio": 4.54,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20221001"
+  },
+  {
+    "date": "2022-05",
+    "ratio": 5.15,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/abstract/abstract1256.shtml"
+  },
+  {
+    "date": "2022-06",
+    "ratio": 5.52,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20221401"
+  },
+  {
+    "date": "2022-07",
+    "ratio": 7.37,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/Y2022/V1/I16/2"
+  },
+  {
+    "date": "2022-08",
+    "ratio": 7.25,
+    "method": "Reconstructed",
+    "note": "Prior month = next-month value plus signed adjustment",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20222001"
+  },
+  {
+    "date": "2022-09",
+    "ratio": 7.82,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20222001"
+  },
+  {
+    "date": "2022-10",
+    "ratio": 8.79,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_46.shtml"
+  },
+  {
+    "date": "2022-11",
+    "ratio": 8.49,
+    "method": "Reconstructed",
+    "note": "Prior month = next-month value plus signed adjustment",
+    "url": "https://journal.chinafeed.com.cn/CN/abstract/abstract1691.shtml"
+  },
+  {
+    "date": "2022-12",
+    "ratio": 6.93,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/abstract/abstract1691.shtml"
+  },
+  {
+    "date": "2023-01",
+    "ratio": 5.37,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_52.shtml"
+  },
+  {
+    "date": "2023-02",
+    "ratio": 5.03,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_54.shtml"
+  },
+  {
+    "date": "2023-03",
+    "ratio": 5.22,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20230801"
+  },
+  {
+    "date": "2023-04",
+    "ratio": 4.99,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_58.shtml"
+  },
+  {
+    "date": "2023-05",
+    "ratio": 4.97,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_60.shtml"
+  },
+  {
+    "date": "2023-06",
+    "ratio": 4.93,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_62.shtml"
+  },
+  {
+    "date": "2023-07",
+    "ratio": 4.82,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/Y2023/V1/I16/2"
+  },
+  {
+    "date": "2023-08",
+    "ratio": 5.62,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_66.shtml"
+  },
+  {
+    "date": "2023-09",
+    "ratio": 5.48,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_68.shtml"
+  },
+  {
+    "date": "2023-10",
+    "ratio": 5.32,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/10.15906/j.cnki.cn11-2975/s.20232401"
+  },
+  {
+    "date": "2023-11",
+    "ratio": 5.23,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_73.shtml"
+  },
+  {
+    "date": "2023-12",
+    "ratio": 5.28,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/abstract/abstract22632.shtml"
+  },
+  {
+    "date": "2024-01",
+    "ratio": 5.34,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://journal.chinafeed.com.cn/CN/volumn/volumn_76.shtml"
+  },
+  {
+    "date": "2024-02",
+    "ratio": 5.84,
+    "method": "Reconstructed",
+    "note": "Prior month = next-month value plus signed adjustment",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202405/t20240509_440895.htm"
+  },
+  {
+    "date": "2024-03",
+    "ratio": 5.77,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202405/t20240509_440895.htm"
+  },
+  {
+    "date": "2024-04",
+    "ratio": 5.97,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202405/t20240520_441295.htm"
+  },
+  {
+    "date": "2024-05",
+    "ratio": 6.14,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202406/t20240624_443125.htm"
+  },
+  {
+    "date": "2024-06",
+    "ratio": 7.06,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202407/t20240719_444687.htm"
+  },
+  {
+    "date": "2024-07",
+    "ratio": 7.2,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202408/t20240822_445999.htm"
+  },
+  {
+    "date": "2024-08",
+    "ratio": 7.95,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202409/t20240923_447237.htm"
+  },
+  {
+    "date": "2024-09",
+    "ratio": 7.88,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202410/t20241011_447899.htm"
+  },
+  {
+    "date": "2024-10",
+    "ratio": null,
+    "method": "Missing",
+    "note": "Image-only report; not extracted; no interpolation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202411/t20241114_449363.htm"
+  },
+  {
+    "date": "2024-11",
+    "ratio": 7.34,
+    "method": "Reconstructed",
+    "note": "Prior month = next-month value plus signed adjustment",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202501/t20250113_452086.htm"
+  },
+  {
+    "date": "2024-12",
+    "ratio": 7.17,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202501/t20250113_452086.htm"
+  },
+  {
+    "date": "2025-01",
+    "ratio": 7.29,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202502/t20250217_453025.htm"
+  },
+  {
+    "date": "2025-02",
+    "ratio": 6.99,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202503/t20250325_454805.htm"
+  },
+  {
+    "date": "2025-03",
+    "ratio": 6.54,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202504/t20250424_456191.htm"
+  },
+  {
+    "date": "2025-04",
+    "ratio": 6.39,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202505/t20250514_456937.htm"
+  },
+  {
+    "date": "2025-05",
+    "ratio": 6.15,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202506/t20250616_460894.htm"
+  },
+  {
+    "date": "2025-06",
+    "ratio": 5.94,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202508/t20250804_463227.htm"
+  },
+  {
+    "date": "2025-07",
+    "ratio": 5.96,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202508/t20250818_463512.htm"
+  },
+  {
+    "date": "2025-08",
+    "ratio": 5.74,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202509/t20250923_464888.htm"
+  },
+  {
+    "date": "2025-09",
+    "ratio": 5.55,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202510/t20251015_465668.htm"
+  },
+  {
+    "date": "2025-10",
+    "ratio": 5.11,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202511/t20251118_467768.htm"
+  },
+  {
+    "date": "2025-11",
+    "ratio": 5.16,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202512/t20251217_468664.htm"
+  },
+  {
+    "date": "2025-12",
+    "ratio": 5.01,
+    "method": "Reported",
+    "note": "Published monthly observation",
+    "url": "https://www.nahs.org.cn/jcyj/scxs/202601/t20260115_469255.htm"
+  }
+]
