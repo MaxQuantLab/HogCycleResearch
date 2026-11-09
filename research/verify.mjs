@@ -4,14 +4,22 @@ import vm from 'node:vm';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),A=require('../dist/analytics.js');
 const D=JSON.parse(fs.readFileSync('dist/data.json','utf8')),html=fs.readFileSync('dist/index.html','utf8');
-assert.equal(D.catalog.length,62);assert.equal(D.observations.length,1850);
+assert.equal(D.catalog.length,63);assert.equal(D.observations.length,1877);
 assert.deepEqual(D.history,['2016-01','2025-12']);
 assert.equal(D.observations.filter(o=>o.date<'2021-01').length,311);
 assert.equal(new Set(D.observations.map(o=>o.metric+'|'+o.date)).size,D.observations.length);
 const catalog=Object.fromEntries(D.catalog.map(c=>[c.id,c]));
-for(const o of D.observations){assert.ok(catalog[o.metric]);assert.match(o.date,/^(201[6-9]|202[0-6])-(0[1-9]|1[0-2])$/);assert.ok(o.date<='2026-08');assert.ok(Number.isFinite(o.value));assert.match(o.url,/^https:\/\//);if(!o.metric.includes('profit')&&!o.metric.endsWith('_ppi'))assert.ok(o.value>=0);}
+for(const o of D.observations){assert.ok(catalog[o.metric]);assert.match(o.date,/^(201[6-9]|202[0-6])-(0[1-9]|1[0-2])$/);assert.ok(o.date<=D.asOf.slice(0,7));assert.ok(Number.isFinite(o.value));assert.match(o.url,/^https:\/\//);if(!o.metric.includes('profit')&&!o.metric.endsWith('_ppi'))assert.ok(o.value>=0);}
 assert.equal(A.series(D,'ratio_mara').filter(o=>o.date>='2021-01'&&o.date<='2025-12').length,59);
 assert.equal(A.series(D,'ratio_mara').find(o=>o.date==='2024-10'),undefined);
+assert.equal(A.series(D,'ratio_mara').at(-1).value,4.66);
+assert.equal(A.series(D,'hog').at(-1).publishedAt,'2026-11-06');
+assert.equal(A.series(D,'sows').at(-1).value,3602);
+assert.equal(A.series(D,'pork_ytd').at(-1).value,4508);
+assert.equal(A.series(D,'pork_annual').at(-1).date,'2025-12');
+assert.equal(A.series(D,'imports').at(-1).value,6.46);
+assert.equal(A.series(D,'restaurant_monthly').at(-1).value,4603);
+
 assert.ok(A.series(D,'slaughter').every(o=>o.date<'2025-07'));
 assert.ok(A.series(D,'slaughter_all').every(o=>o.date>='2025-07'));
 for(const id of ['pork_annual','inventory_annual','outbound_annual','beef_annual','lamb_annual','poultry_annual','meat_annual','eggs_annual','income_annual','corn_annual','restaurant_annual','carcass_proxy'])assert.deepEqual(A.series(D,id).map(o=>o.date),Array.from({length:10},(_,i)=>(2016+i)+'-12'));
@@ -50,9 +58,9 @@ const document={getElementById:id=>nodes.get(id),querySelectorAll:select,querySe
 const window={HOG_DATA:D,HogAnalytics:A,addEventListener:(k,fn)=>events[k]=fn,scrollTo:()=>{}};
 const context=vm.createContext({window,document,location,history:{replaceState:(_,__,hash)=>location.hash=hash},URL,Blob,AbortController,console});
 vm.runInContext(fs.readFileSync('dist/app.js','utf8'),context);
-assert.match(nodes.get('kpis').innerHTML,/11.36/);assert.match(nodes.get('overview-chart').innerHTML,/<svg/);assert.match(nodes.get('heatmap').innerHTML,/2024-10/);assert.match(nodes.get('heatmap').innerHTML,/2016-01/);assert.match(nodes.get('heatmap').innerHTML,/2026-12/);assert.equal((nodes.get('heatmap').innerHTML.match(/data-date=/g)||[]).length,132);assert.match(nodes.get('future-result').innerHTML,/170,880/);assert.equal(registered.size,2);assert.match(nodes.get('pigfeed-bars').innerHTML,/16,639\.4/);assert.match(nodes.get('overview-coverage').textContent,/12项年度/);
+assert.match(nodes.get('kpis').innerHTML,/11\.42/);assert.match(nodes.get('overview-chart').innerHTML,/<svg/);assert.match(nodes.get('heatmap').innerHTML,/2024-10/);assert.match(nodes.get('heatmap').innerHTML,/2016-01/);assert.match(nodes.get('heatmap').innerHTML,/2026-12/);assert.equal((nodes.get('heatmap').innerHTML.match(/data-date=/g)||[]).length,132);assert.match(nodes.get('future-result').innerHTML,/170,880/);assert.equal(registered.size,2);assert.match(nodes.get('pigfeed-bars').innerHTML,/16,639\.4/);assert.match(nodes.get('overview-coverage').textContent,/12项年度/);
 for(const id of ['overview-period','trajectory-period','lab-period'])assert.equal(nodes.get(id).value,'all');
-assert.match(nodes.get('hog-trend').innerHTML,/2026-08/);assert.match(nodes.get('overview-chart').innerHTML,/2026-08/);
+assert.match(nodes.get('hog-trend').innerHTML,/2026-09/);assert.match(nodes.get('overview-chart').innerHTML,/2026-09/);
 elements.find(e=>e.dataset.pair==='hog,corn,index').onclick();assert.equal(nodes.get('lab-period').value,'all');
 for(const id of ['sows-trend','hog-trend','pork-trend'])assert.match(nodes.get(id).innerHTML,/<svg/);
 assert.equal((nodes.get('pork-trend').innerHTML.match(/class="chart-point"/g)||[]).length,10);

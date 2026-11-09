@@ -1,7 +1,28 @@
 import json,csv
+from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 x=json.loads((ROOT/'research/data-stage.json').read_text())
+# Apply verified updates in publication-check order; keep the historical base intact.
+by_key={(o['metric'],o['date']):o for o in x['observations']}
+catalog={c['id']:c for c in x['catalog']}
+for path in sorted((ROOT/'research/updates').glob('*.json')):
+ update=json.loads(path.read_text())
+ date.fromisoformat(update['asOf'])
+ assert update['asOf']>=x['asOf']
+ for c in update.get('catalog',[]):
+  assert c['id'] not in catalog
+  catalog[c['id']]=c
+ for o in update['observations']:
+  assert o['metric'] in catalog
+  for field in ('publishedAt','sourceArchiveDate'):
+   if o.get(field):
+    date.fromisoformat(o[field])
+    assert o['date']<=o[field][:7] and o[field]<=update['asOf']
+  by_key[o['metric'],o['date']]=o
+ x['asOf']=update['asOf']
+x['catalog']=list(catalog.values())
+x['observations']=list(by_key.values())
 x['observations']=sorted([o for o in x['observations'] if o['date']>='2016-01'],key=lambda o:(o['metric'],o['date']))
 for o in x['observations']:
  if o['method']=='环比反推':o['note']='根据后一期月报公布的猪粮比及较上月变化点数反推前期值；原文四舍五入会影响精度。'
@@ -38,7 +59,7 @@ for c in x['catalog']:
  rows=[o for o in x['observations'] if o['metric']==c['id']]
  c['count']=len(rows);c['historyCount']=sum('2016-01'<=o['date']<='2025-12' for o in rows);c['latest']=rows[-1] if rows else None
  c['expectedHistory']=10 if c['frequency']=='年度' else (40 if c['frequency'].startswith('季度') else 120)
- c['coverageNote']='2025年7月结束原范围，后续单列全部定点企业。' if c['id']=='slaughter' else ('2025年7月启用新统计范围，本版已取得4个历史月份。' if c['id']=='slaughter_all' else ('截至2025年8月；后续联合月报未继续列出，不能当作当前成本。' if c['id'].startswith(('small_','scale_')) or c['id']=='ratio_ndrc' else '缺失期不填充，原表同期值与上月值保留提取方式。'))
+ c['coverageNote']='2025年7月结束原范围，后续单列全部定点企业。' if c['id']=='slaughter' else ('2025年7月启用新统计范围，按实际取得月份展示。' if c['id']=='slaughter_all' else ('截至2025年8月；后续联合月报未继续列出，不能当作当前成本。' if c['id'].startswith(('small_','scale_')) or c['id']=='ratio_ndrc' else '缺失期不填充，原表同期值与上月值保留提取方式。'))
 for c in x['catalog']:
  if c['id'].startswith('lh_'):c['coverageNote']='仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。'
  elif c['frequency']=='年度':c['coverageNote']=f"2016—2025已收集{c['historyCount']}/10期；年度落点为12月，不代表发布日期。缺失年度不补值，原始发布版本可能修订。"
@@ -46,14 +67,14 @@ for c in x['catalog']:
  if c['id'].startswith('lh_'):c['coverageNote']+=' 生猪期货2021年上市，2016—2020无LH交易数据。'
 assert len(set((o['metric'],o['date']) for o in x['observations']))==len(x['observations'])
 assert all(o['url'].startswith('https://') and 0<len(o['date'])==7 for o in x['observations'])
-assert all(o['date']<='2026-08' for o in x['observations'])
+assert all(o['date']<=x['asOf'][:7] for o in x['observations'])
 (ROOT/'dist/data.json').write_text(json.dumps(x,ensure_ascii=False,indent=2))
 (ROOT/'dist/data.js').write_text('window.HOG_DATA = '+json.dumps(x,ensure_ascii=False,separators=(',',':'))+';\n')
 cats={c['id']:c for c in x['catalog']}
 with (ROOT/'dist/observations.csv').open('w',encoding='utf-8-sig',newline='') as f:
- w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','统计期','值','单位','频率','提取方式','备注','原表同比','原表环比','来源链接'])
+ w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','统计期','值','单位','频率','提取方式','备注','原表同比','原表环比','来源链接','发布日期','来源附件归档日期'])
  for o in x['observations']:
-  c=cats[o['metric']];w.writerow([o['metric'],c['name'],c['group'],o['date'],o['value'],c['unit'],c['frequency'],o['method'],o['note'],o['yoy'],o['mom'],o['url']])
+  c=cats[o['metric']];w.writerow([o['metric'],c['name'],c['group'],o['date'],o['value'],c['unit'],c['frequency'],o['method'],o['note'],o['yoy'],o['mom'],o['url'],o.get('publishedAt'),o.get('sourceArchiveDate')])
 with (ROOT/'dist/indicator-catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
  w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','单位','频率','定义','影响机制','通常时滞','发布单位','历史观测数','覆盖说明'])
  for c in x['catalog']:w.writerow([c['id'],c['name'],c['group'],c['unit'],c['frequency'],c['definition'],c['effect'],c['lag'],c['agency'],c['historyCount'],c['coverageNote']])

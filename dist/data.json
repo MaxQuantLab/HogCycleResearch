@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02",
+  "asOf": "2026-11-09",
   "history": [
     "2016-01",
     "2025-12"
@@ -15,17 +15,18 @@
       "effect": "现货价格基准；与出场价分开比较。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 78,
+      "count": 79,
       "historyCount": 70,
       "latest": {
         "metric": "hog",
-        "date": "2026-08",
-        "value": 11.36,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 11.42,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-17.3%",
+        "mom": "0.5%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -40,17 +41,18 @@
       "effect": "消费端价格；传导通常慢于生猪价格。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 89,
+      "count": 90,
       "historyCount": 81,
       "latest": {
         "metric": "pork",
-        "date": "2026-08",
-        "value": 21.0,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 21.17,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-13.6%",
+        "mom": "0.8%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -65,17 +67,18 @@
       "effect": "反映补栏意愿，也影响外购仔猪育肥成本。",
       "lag": "约5—6个月",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 91,
+      "count": 92,
       "historyCount": 83,
       "latest": {
         "metric": "piglet",
-        "date": "2026-08",
-        "value": 21.91,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 20.51,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-31.8%",
+        "mom": "-6.4%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -90,17 +93,18 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 75,
+      "count": 76,
       "historyCount": 67,
       "latest": {
         "metric": "corn",
-        "date": "2026-08",
-        "value": 2.46,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 2.45,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-1.6%",
+        "mom": "-0.4%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -115,17 +119,18 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 66,
+      "count": 67,
       "historyCount": 58,
       "latest": {
         "metric": "meal",
-        "date": "2026-08",
-        "value": 3.25,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 3.38,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "2.4%",
+        "mom": "4.0%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -140,17 +145,18 @@
       "effect": "成本下降可缓解亏损，也可能延缓退出。",
       "lag": "当期及后续育肥周期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 76,
+      "count": 77,
       "historyCount": 68,
       "latest": {
         "metric": "feed",
-        "date": "2026-08",
-        "value": 3.35,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 3.36,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-0.9%",
+        "mom": "0.3%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -165,17 +171,18 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 42,
+      "count": 43,
       "historyCount": 34,
       "latest": {
         "metric": "chicken",
-        "date": "2026-08",
-        "value": 22.42,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 22.47,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "-0.4%",
+        "mom": "0.2%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -190,17 +197,18 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 66,
+      "count": 67,
       "historyCount": 58,
       "latest": {
         "metric": "beef",
-        "date": "2026-08",
-        "value": 74.32,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 76.24,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "7.5%",
+        "mom": "2.6%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -215,17 +223,18 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 66,
+      "count": 67,
       "historyCount": 58,
       "latest": {
         "metric": "lamb",
-        "date": "2026-08",
-        "value": 73.0,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 73.95,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "6.3%",
+        "mom": "1.3%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -240,17 +249,18 @@
       "effect": "相对价格改变消费者选择，影响方向取决于替代关系。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 64,
+      "count": 65,
       "historyCount": 56,
       "latest": {
         "metric": "egg",
-        "date": "2026-08",
-        "value": 11.17,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 11.65,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
-        "yoy": null,
-        "mom": null
+        "note": "全国500个县集贸市场和采集点；9月月均。",
+        "yoy": "27.3%",
+        "mom": "4.3%",
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -265,17 +275,18 @@
       "effect": "衡量相对价格与养殖压力，不能单独判断估值或买点。",
       "lag": "当期",
       "agency": "农业农村部 / 全国畜牧总站",
-      "count": 94,
+      "count": 95,
       "historyCount": 86,
       "latest": {
         "metric": "ratio_mara",
-        "date": "2026-08",
-        "value": 4.62,
-        "url": "https://www.nahs.org.cn/jcyj/scxs/202609/t20260909_474345.htm",
+        "date": "2026-09",
+        "value": 4.66,
+        "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
         "method": "原表",
-        "note": "",
+        "note": "集贸市场月报原值；较上月上升0.04个点。",
         "yoy": null,
-        "mom": null
+        "mom": null,
+        "publishedAt": "2026-11-06"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -290,17 +301,19 @@
       "effect": "用于发改委猪粮比，不能与集贸玉米混算。",
       "lag": "当期",
       "agency": "国家发展改革委",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "hog_farm",
-        "date": "2026-08",
-        "value": 11.01,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 11.05,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份全国生猪出场价格（元/公斤）",
-        "yoy": "-22.6%",
-        "mom": "2.2%"
+        "note": "2026年9月份全国生猪出场价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-19.8%",
+        "mom": "0.4%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -315,17 +328,19 @@
       "effect": "补栏与扩产意愿的价格信号。",
       "lag": "约10个月及以上",
       "agency": "国家发展改革委",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "gilt",
-        "date": "2026-08",
-        "value": 26.68,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 26.57,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份全国二元母猪销售价格（元/公斤）",
-        "yoy": "-18.0%",
-        "mom": "0.0%"
+        "note": "2026年9月份全国二元母猪销售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-16.7%",
+        "mom": "-0.4%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -340,17 +355,19 @@
       "effect": "观察从养殖到消费端的价格传导；不同部位不可直接拼接。",
       "lag": "当期",
       "agency": "农业农村部",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "white",
-        "date": "2026-08",
-        "value": 15.97,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 16.33,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份全国批发市场白条猪价格（元/公斤）",
-        "yoy": "-20.5%",
-        "mom": "2.1%"
+        "note": "2026年9月份全国批发市场白条猪价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-16.6%",
+        "mom": "2.3%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -365,17 +382,19 @@
       "effect": "观察从养殖到消费端的价格传导；不同部位不可直接拼接。",
       "lag": "当期",
       "agency": "商务部",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "city_white",
-        "date": "2026-08",
-        "value": 17.21,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 17.34,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份36个大中城市批发市场白条猪价格（元/公斤）",
-        "yoy": "-14.8%",
-        "mom": "3.1%"
+        "note": "2026年9月份36个大中城市批发市场白条猪价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-12.7%",
+        "mom": "0.8%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -390,17 +409,19 @@
       "effect": "观察从养殖到消费端的价格传导；不同部位不可直接拼接。",
       "lag": "当期",
       "agency": "国家发展改革委",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "lean",
-        "date": "2026-08",
-        "value": 26.86,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 27.04,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份36个大中城市猪肉（精瘦肉）零售价格（元/公斤）",
-        "yoy": "-13.6%",
-        "mom": "0.8%"
+        "note": "2026年9月份36个大中城市猪肉（精瘦肉）零售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-13.3%",
+        "mom": "0.7%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -415,17 +436,19 @@
       "effect": "观察从养殖到消费端的价格传导；不同部位不可直接拼接。",
       "lag": "当期",
       "agency": "商务部",
-      "count": 44,
+      "count": 45,
       "historyCount": 43,
       "latest": {
         "metric": "leg",
-        "date": "2026-08",
-        "value": 23.66,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 23.52,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份36个大中城市猪肉（后腿肉）零售价格（元/公斤）",
+        "note": "2026年9月份36个大中城市猪肉（后腿肉）零售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
         "yoy": "-14.7%",
-        "mom": "0.8%"
+        "mom": "-0.6%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -465,17 +488,18 @@
       "effect": "未来供给的领先指标，必须结合繁殖效率。",
       "lag": "通常约9—11个月",
       "agency": "国家统计局 / 农业农村部",
-      "count": 48,
+      "count": 49,
       "historyCount": 47,
       "latest": {
         "metric": "sows",
-        "date": "2026-06",
-        "value": 3780.0,
-        "url": "https://www.stats.gov.cn/sj/sjjd/202607/t20260716_1964140.html",
+        "date": "2026-09",
+        "value": 3602,
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
         "method": "原表",
-        "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
-        "yoy": "-6.5%",
-        "mom": null
+        "note": "2026年3季度末能繁母猪存栏（万头）；环比为与上一季度末比较。",
+        "yoy": "-10.7%",
+        "mom": "-4.7%",
+        "publishedAt": "2026-10-20"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。 2016—2018未取得与现行头数口径可比的存栏值；旧400县监测主要公布增减幅，2018年样本调整，不拼接为头数。"
@@ -490,17 +514,18 @@
       "effect": "供给蓄水池；不能全部理解为近期可出栏猪。",
       "lag": "分年龄约0—6个月",
       "agency": "国家统计局",
-      "count": 23,
+      "count": 24,
       "historyCount": 22,
       "latest": {
         "metric": "inventory",
-        "date": "2026-06",
-        "value": 42491.0,
-        "url": "https://www.stats.gov.cn/sj/sjjd/202607/t20260716_1964140.html",
+        "date": "2026-09",
+        "value": 42533,
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
         "method": "原表",
-        "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
-        "yoy": "0.1%",
-        "mom": null
+        "note": "2026年3季度末生猪存栏（万头）；环比为与上一季度末比较。",
+        "yoy": "-2.6%",
+        "mom": "0.1%",
+        "publishedAt": "2026-10-20"
       },
       "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -515,17 +540,18 @@
       "effect": "已兑现供应量。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 23,
+      "count": 24,
       "historyCount": 22,
       "latest": {
         "metric": "outbound_ytd",
-        "date": "2026-06",
-        "value": 37246.0,
-        "url": "https://www.stats.gov.cn/sj/sjjd/202607/t20260716_1964140.html",
+        "date": "2026-09",
+        "value": 53739,
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
         "method": "原表",
-        "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
-        "yoy": "1.7%",
-        "mom": null
+        "note": "2026年前3季度生猪出栏（万头）；2026年1—9月累计，非第三季度单季或全年。",
+        "yoy": "1.4%",
+        "mom": null,
+        "publishedAt": "2026-10-20"
       },
       "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -540,17 +566,18 @@
       "effect": "比单看出栏头数更接近肉的实际供应。",
       "lag": "当期",
       "agency": "国家统计局",
-      "count": 23,
+      "count": 24,
       "historyCount": 22,
       "latest": {
         "metric": "pork_ytd",
-        "date": "2026-06",
-        "value": 3119.0,
-        "url": "https://www.stats.gov.cn/sj/sjjd/202607/t20260716_1964140.html",
+        "date": "2026-09",
+        "value": 4508,
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
         "method": "原表",
-        "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
-        "yoy": "3.3%",
-        "mom": null
+        "note": "2026年前3季度猪肉产量（万吨）；2026年1—9月累计，非第三季度单季或全年。",
+        "yoy": "3.2%",
+        "mom": null,
+        "publishedAt": "2026-10-20"
       },
       "expectedHistory": 40,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -590,20 +617,22 @@
       "effect": "屠宰端供应兑现，亦受需求和行业集中度影响。",
       "lag": "当期",
       "agency": "农业农村部",
-      "count": 5,
+      "count": 6,
       "historyCount": 4,
       "latest": {
         "metric": "slaughter_all",
-        "date": "2026-08",
-        "value": 3755.0,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 3986.0,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月份生猪定点屠宰企业屠宰量（万头）",
-        "yoy": "12.1%",
-        "mom": "4.0%"
+        "note": "2026年9月份生猪定点屠宰企业屠宰量（万头）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "11.2%",
+        "mom": "6.2%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
-      "coverageNote": "2025年7月启用新统计范围，本版已取得4个历史月份。"
+      "coverageNote": "2025年7月启用新统计范围，按实际取得月份展示。"
     },
     {
       "id": "small_cost",
@@ -765,17 +794,19 @@
       "effect": "改变国内可用供应；杂碎不是猪肉替代的等量口径。",
       "lag": "当期",
       "agency": "海关总署",
-      "count": 40,
+      "count": 41,
       "historyCount": 39,
       "latest": {
         "metric": "imports",
-        "date": "2026-08",
-        "value": 5.72,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 6.46,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月进口猪肉（万吨）",
-        "yoy": "-28.9%",
-        "mom": "-5.3%"
+        "note": "2026年9月进口猪肉（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "-19.1%",
+        "mom": "12.8%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -790,17 +821,19 @@
       "effect": "改变国内可用供应；杂碎不是猪肉替代的等量口径。",
       "lag": "当期",
       "agency": "海关总署",
-      "count": 40,
+      "count": 41,
       "historyCount": 39,
       "latest": {
         "metric": "offal_imports",
-        "date": "2026-08",
-        "value": 8.62,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 10.94,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月进口猪杂碎（万吨）",
-        "yoy": "-11.1%",
-        "mom": "-8.9%"
+        "note": "2026年9月进口猪杂碎（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "12.2%",
+        "mom": "26.9%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -815,17 +848,19 @@
       "effect": "改变国内可用供应；杂碎不是猪肉替代的等量口径。",
       "lag": "当期",
       "agency": "海关总署",
-      "count": 33,
+      "count": 34,
       "historyCount": 32,
       "latest": {
         "metric": "exports",
-        "date": "2026-08",
-        "value": 0.56,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 0.66,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月出口猪肉（万吨）",
-        "yoy": "65.1%",
-        "mom": "-17.8%"
+        "note": "2026年9月出口猪肉（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "62.7%",
+        "mom": "18.0%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -840,17 +875,19 @@
       "effect": "改变国内可用供应；杂碎不是猪肉替代的等量口径。",
       "lag": "当期",
       "agency": "海关总署",
-      "count": 33,
+      "count": 34,
       "historyCount": 32,
       "latest": {
         "metric": "offal_exports",
-        "date": "2026-08",
-        "value": 0.5,
-        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202608/",
+        "date": "2026-09",
+        "value": 0.68,
+        "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
         "method": "原表",
-        "note": "2026年8月出口猪杂碎（万吨）",
-        "yoy": "-26.2%",
-        "mom": "-20.2%"
+        "note": "2026年9月出口猪杂碎（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+        "yoy": "1.0%",
+        "mom": "36.9%",
+        "publishedAt": null,
+        "sourceArchiveDate": "2026-10-29"
       },
       "expectedHistory": 120,
       "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
@@ -1554,6 +1591,32 @@
       },
       "expectedHistory": 10,
       "coverageNote": "仅有部分年度，缺失年份不连线、不补值；全品种年度流动性不代表指定合约实时行情。 生猪期货2021年上市，2016—2020无LH交易数据。"
+    },
+    {
+      "id": "restaurant_monthly",
+      "name": "餐饮收入 · 当月",
+      "group": "需求",
+      "unit": "亿元",
+      "frequency": "月度",
+      "definition": "全国社会消费品零售总额统计中的当月名义餐饮收入。",
+      "effect": "外食活动代理；收入受价格和品类结构影响，不能直接衡量猪肉消费量。",
+      "lag": "当期",
+      "agency": "国家统计局",
+      "count": 1,
+      "historyCount": 0,
+      "latest": {
+        "metric": "restaurant_monthly",
+        "date": "2026-09",
+        "value": 4603,
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html",
+        "method": "原表",
+        "note": "9月当月名义餐饮收入；与年度收入分列。",
+        "yoy": "2.1%",
+        "mom": null,
+        "publishedAt": "2026-10-19"
+      },
+      "expectedHistory": 120,
+      "coverageNote": "缺失期不填充，原表同期值与上月值保留提取方式。"
     }
   ],
   "observations": [
@@ -2268,6 +2331,17 @@
       "mom": null
     },
     {
+      "metric": "beef",
+      "date": "2026-09",
+      "value": 76.24,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "7.5%",
+      "mom": "2.6%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "beef_annual",
       "date": "2016-12",
       "value": 717.0,
@@ -2888,6 +2962,17 @@
       "mom": null
     },
     {
+      "metric": "chicken",
+      "date": "2026-09",
+      "value": 22.47,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-0.4%",
+      "mom": "0.2%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "city_white",
       "date": "2021-08",
       "value": 20.22,
@@ -3326,6 +3411,18 @@
       "note": "2026年8月份36个大中城市批发市场白条猪价格（元/公斤）",
       "yoy": "-14.8%",
       "mom": "3.1%"
+    },
+    {
+      "metric": "city_white",
+      "date": "2026-09",
+      "value": 17.34,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份36个大中城市批发市场白条猪价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-12.7%",
+      "mom": "0.8%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "consumption_annual",
@@ -4128,6 +4225,17 @@
       "mom": null
     },
     {
+      "metric": "corn",
+      "date": "2026-09",
+      "value": 2.45,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-1.6%",
+      "mom": "-0.4%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "corn_annual",
       "date": "2016-12",
       "value": 4391.0,
@@ -4918,6 +5026,17 @@
       "mom": null
     },
     {
+      "metric": "egg",
+      "date": "2026-09",
+      "value": 11.65,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "27.3%",
+      "mom": "4.3%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "eggs_annual",
       "date": "2016-12",
       "value": 3095.0,
@@ -5346,6 +5465,18 @@
       "note": "2026年8月出口猪肉（万吨）",
       "yoy": "65.1%",
       "mom": "-17.8%"
+    },
+    {
+      "metric": "exports",
+      "date": "2026-09",
+      "value": 0.66,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月出口猪肉（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "62.7%",
+      "mom": "18.0%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "exports_annual",
@@ -6158,6 +6289,17 @@
       "mom": null
     },
     {
+      "metric": "feed",
+      "date": "2026-09",
+      "value": 3.36,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-0.9%",
+      "mom": "0.3%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "gilt",
       "date": "2021-08",
       "value": 49.31,
@@ -6596,6 +6738,18 @@
       "note": "2026年8月份全国二元母猪销售价格（元/公斤）",
       "yoy": "-18.0%",
       "mom": "0.0%"
+    },
+    {
+      "metric": "gilt",
+      "date": "2026-09",
+      "value": 26.57,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份全国二元母猪销售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-16.7%",
+      "mom": "-0.4%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "hog",
@@ -7378,6 +7532,17 @@
       "mom": null
     },
     {
+      "metric": "hog",
+      "date": "2026-09",
+      "value": 11.42,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-17.3%",
+      "mom": "0.5%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "hog_farm",
       "date": "2021-08",
       "value": 15.9,
@@ -7816,6 +7981,18 @@
       "note": "2026年8月份全国生猪出场价格（元/公斤）",
       "yoy": "-22.6%",
       "mom": "2.2%"
+    },
+    {
+      "metric": "hog_farm",
+      "date": "2026-09",
+      "value": 11.05,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份全国生猪出场价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-19.8%",
+      "mom": "0.4%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "hog_ppi",
@@ -8268,6 +8445,18 @@
       "mom": "-5.3%"
     },
     {
+      "metric": "imports",
+      "date": "2026-09",
+      "value": 6.46,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月进口猪肉（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-19.1%",
+      "mom": "12.8%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
+    },
+    {
       "metric": "imports_annual",
       "date": "2021-12",
       "value": 371.06,
@@ -8696,6 +8885,17 @@
       "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
       "yoy": "0.1%",
       "mom": null
+    },
+    {
+      "metric": "inventory",
+      "date": "2026-09",
+      "value": 42533,
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
+      "method": "原表",
+      "note": "2026年3季度末生猪存栏（万头）；环比为与上一季度末比较。",
+      "yoy": "-2.6%",
+      "mom": "0.1%",
+      "publishedAt": "2026-10-20"
     },
     {
       "metric": "inventory_annual",
@@ -9458,6 +9658,17 @@
       "mom": null
     },
     {
+      "metric": "lamb",
+      "date": "2026-09",
+      "value": 73.95,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "6.3%",
+      "mom": "1.3%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "lamb_annual",
       "date": "2016-12",
       "value": 459.0,
@@ -9998,6 +10209,18 @@
       "mom": "0.8%"
     },
     {
+      "metric": "lean",
+      "date": "2026-09",
+      "value": 27.04,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份36个大中城市猪肉（精瘦肉）零售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-13.3%",
+      "mom": "0.7%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
+    },
+    {
       "metric": "leg",
       "date": "2021-08",
       "value": 40.09,
@@ -10436,6 +10659,18 @@
       "note": "2026年8月份36个大中城市猪肉（后腿肉）零售价格（元/公斤）",
       "yoy": "-14.7%",
       "mom": "0.8%"
+    },
+    {
+      "metric": "leg",
+      "date": "2026-09",
+      "value": 23.52,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份36个大中城市猪肉（后腿肉）零售价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-14.7%",
+      "mom": "-0.6%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "lh_daily_oi_annual",
@@ -11148,6 +11383,17 @@
       "mom": null
     },
     {
+      "metric": "meal",
+      "date": "2026-09",
+      "value": 3.38,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "2.4%",
+      "mom": "4.0%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "meat_annual",
       "date": "2016-12",
       "value": 8364.0,
@@ -11576,6 +11822,18 @@
       "note": "2026年8月出口猪杂碎（万吨）",
       "yoy": "-26.2%",
       "mom": "-20.2%"
+    },
+    {
+      "metric": "offal_exports",
+      "date": "2026-09",
+      "value": 0.68,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月出口猪杂碎（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "1.0%",
+      "mom": "36.9%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "offal_exports_annual",
@@ -12028,6 +12286,18 @@
       "mom": "-8.9%"
     },
     {
+      "metric": "offal_imports",
+      "date": "2026-09",
+      "value": 10.94,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月进口猪杂碎（万吨）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "12.2%",
+      "mom": "26.9%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
+    },
+    {
       "metric": "offal_imports_annual",
       "date": "2021-12",
       "value": 129.41,
@@ -12406,6 +12676,17 @@
       "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
       "yoy": "1.7%",
       "mom": null
+    },
+    {
+      "metric": "outbound_ytd",
+      "date": "2026-09",
+      "value": 53739,
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
+      "method": "原表",
+      "note": "2026年前3季度生猪出栏（万头）；2026年1—9月累计，非第三季度单季或全年。",
+      "yoy": "1.4%",
+      "mom": null,
+      "publishedAt": "2026-10-20"
     },
     {
       "metric": "pigfeed_annual",
@@ -13368,6 +13649,17 @@
       "mom": null
     },
     {
+      "metric": "piglet",
+      "date": "2026-09",
+      "value": 20.51,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-31.8%",
+      "mom": "-6.4%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "population_annual",
       "date": "2021-12",
       "value": 141260,
@@ -14308,6 +14600,17 @@
       "mom": null
     },
     {
+      "metric": "pork",
+      "date": "2026-09",
+      "value": 21.17,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "全国500个县集贸市场和采集点；9月月均。",
+      "yoy": "-13.6%",
+      "mom": "0.8%",
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "pork_annual",
       "date": "2016-12",
       "value": 5299.0,
@@ -14636,6 +14939,17 @@
       "note": "2026年上半年；存栏为二季度末值，出栏及产量为1—6月累计。",
       "yoy": "3.3%",
       "mom": null
+    },
+    {
+      "metric": "pork_ytd",
+      "date": "2026-09",
+      "value": 4508,
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
+      "method": "原表",
+      "note": "2026年前3季度猪肉产量（万吨）；2026年1—9月累计，非第三季度单季或全年。",
+      "yoy": "3.2%",
+      "mom": null,
+      "publishedAt": "2026-10-20"
     },
     {
       "metric": "poultry_annual",
@@ -15678,6 +15992,17 @@
       "mom": null
     },
     {
+      "metric": "ratio_mara",
+      "date": "2026-09",
+      "value": 4.66,
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "method": "原表",
+      "note": "集贸市场月报原值；较上月上升0.04个点。",
+      "yoy": null,
+      "mom": null,
+      "publishedAt": "2026-11-06"
+    },
+    {
       "metric": "ratio_ndrc",
       "date": "2021-08",
       "value": 5.66,
@@ -16176,6 +16501,17 @@
       "note": "全年名义收入；统计调查范围及基期可能修订。",
       "yoy": null,
       "mom": null
+    },
+    {
+      "metric": "restaurant_monthly",
+      "date": "2026-09",
+      "value": 4603,
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html",
+      "method": "原表",
+      "note": "9月当月名义餐饮收入；与年度收入分列。",
+      "yoy": "2.1%",
+      "mom": null,
+      "publishedAt": "2026-10-19"
     },
     {
       "metric": "scale_cost",
@@ -17816,6 +18152,18 @@
       "note": "2026年8月份生猪定点屠宰企业屠宰量（万头）",
       "yoy": "12.1%",
       "mom": "4.0%"
+    },
+    {
+      "metric": "slaughter_all",
+      "date": "2026-09",
+      "value": 3986.0,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份生猪定点屠宰企业屠宰量（万头）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "11.2%",
+      "mom": "6.2%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     },
     {
       "metric": "small_cost",
@@ -19498,6 +19846,17 @@
       "mom": null
     },
     {
+      "metric": "sows",
+      "date": "2026-09",
+      "value": 3602,
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
+      "method": "原表",
+      "note": "2026年3季度末能繁母猪存栏（万头）；环比为与上一季度末比较。",
+      "yoy": "-10.7%",
+      "mom": "-4.7%",
+      "publishedAt": "2026-10-20"
+    },
+    {
       "metric": "sows_annual",
       "date": "2019-12",
       "value": 3080.0,
@@ -20056,6 +20415,18 @@
       "note": "2026年8月份全国批发市场白条猪价格（元/公斤）",
       "yoy": "-20.5%",
       "mom": "2.1%"
+    },
+    {
+      "metric": "white",
+      "date": "2026-09",
+      "value": 16.33,
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "method": "原表",
+      "note": "2026年9月份全国批发市场白条猪价格（元/公斤）；五部门联合表。页面未标发布日期，官方附件归档日期为2026-10-29。",
+      "yoy": "-16.6%",
+      "mom": "2.3%",
+      "publishedAt": null,
+      "sourceArchiveDate": "2026-10-29"
     }
   ],
   "conflicts": [],
@@ -20795,6 +21166,12 @@
       "last": "2026-08"
     },
     {
+      "url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2026/202609/",
+      "records": 11,
+      "first": "2026-09",
+      "last": "2026-09"
+    },
+    {
       "url": "https://www.nahs.org.cn/dt/xwlb/202202/t20220211_397140.htm",
       "records": 2,
       "first": "2021-12",
@@ -21053,6 +21430,12 @@
       "last": "2026-08"
     },
     {
+      "url": "https://www.nahs.org.cn/jcyj/scxs/202611/t20261106_475450.htm",
+      "records": 11,
+      "first": "2026-09",
+      "last": "2026-09"
+    },
+    {
       "url": "https://www.ndrc.gov.cn/fgsj/tjsj/jjsjgl1/202301/t20230131_1348088.html",
       "records": 1,
       "first": "2022-12",
@@ -21147,6 +21530,18 @@
       "records": 1,
       "first": "2025-12",
       "last": "2025-12"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html",
+      "records": 1,
+      "first": "2026-09",
+      "last": "2026-09"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html",
+      "records": 4,
+      "first": "2026-09",
+      "last": "2026-09"
     },
     {
       "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202001/t20200119_1764894.html",
