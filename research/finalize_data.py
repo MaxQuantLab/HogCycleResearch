@@ -6,6 +6,7 @@ x=json.loads((ROOT/'research/data-stage.json').read_text())
 # Apply verified updates in publication-check order; keep the historical base intact.
 by_key={(o['metric'],o['date']):o for o in x['observations']}
 catalog={c['id']:c for c in x['catalog']}
+weekly={(r['metric'],r['sampleDate'],r['scope']):r for r in x.get('weeklyObservations',[])}
 for path in sorted((ROOT/'research/updates').glob('*.json')):
  update=json.loads(path.read_text())
  date.fromisoformat(update['asOf'])
@@ -20,7 +21,17 @@ for path in sorted((ROOT/'research/updates').glob('*.json')):
     date.fromisoformat(o[field])
     assert o['date']<=o[field][:7] and o[field]<=update['asOf']
   by_key[o['metric'],o['date']]=o
+ for r in update.get('weeklyObservations',[]):
+  date.fromisoformat(r['sampleDate']);date.fromisoformat(r['publishedAt'])
+  assert r['sampleDate']<=r['publishedAt']<=update['asOf']
+  assert r['url'].startswith('https://') and isinstance(r['value'],(int,float)) and r['value']>=0
+  assert r['frequency'].startswith('周度')
+  if r.get('periodStart'):
+   assert r['periodStart']<=r['periodEnd']==r['sampleDate']
+  weekly[r['metric'],r['sampleDate'],r['scope']]=r
  x['asOf']=update['asOf']
+x['weeklyObservations']=sorted(weekly.values(),key=lambda r:(r['sampleDate'],r['scope'],r['metric']))
+x['weeklySources']=sorted(set(r['url'] for r in weekly.values()))
 x['catalog']=list(catalog.values())
 x['observations']=list(by_key.values())
 x['observations']=sorted([o for o in x['observations'] if o['date']>='2016-01'],key=lambda o:(o['metric'],o['date']))
@@ -70,6 +81,10 @@ assert all(o['url'].startswith('https://') and 0<len(o['date'])==7 for o in x['o
 assert all(o['date']<=x['asOf'][:7] for o in x['observations'])
 (ROOT/'dist/data.json').write_text(json.dumps(x,ensure_ascii=False,indent=2))
 (ROOT/'dist/data.js').write_text('window.HOG_DATA = '+json.dumps(x,ensure_ascii=False,separators=(',',':'))+';\n')
+with (ROOT/'dist/weekly-observations.csv').open('w',encoding='utf-8-sig',newline='') as f:
+ w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','采集日/期间末','期间起','期间末','数值','单位','频率','样本口径','原表同比','原表环比','发布日期','提取方式','备注','来源链接'])
+ for r in x['weeklyObservations']:
+  w.writerow([r['metric'],r['name'],r['sampleDate'],r.get('periodStart'),r.get('periodEnd'),r['value'],r['unit'],r['frequency'],r['scope'],r['yoy'],r['mom'],r['publishedAt'],r['method'],r['note'],r['url']])
 cats={c['id']:c for c in x['catalog']}
 with (ROOT/'dist/observations.csv').open('w',encoding='utf-8-sig',newline='') as f:
  w=csv.writer(f,lineterminator="\n");w.writerow(['指标代码','指标名称','分类','统计期','值','单位','频率','提取方式','备注','原表同比','原表环比','来源链接','发布日期','来源附件归档日期'])

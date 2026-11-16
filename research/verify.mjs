@@ -6,6 +6,19 @@ const require=createRequire(import.meta.url),A=require('../dist/analytics.js');
 const D=JSON.parse(fs.readFileSync('dist/data.json','utf8')),html=fs.readFileSync('dist/index.html','utf8');
 assert.equal(D.catalog.length,63);assert.equal(D.observations.length,1877);
 assert.deepEqual(D.history,['2016-01','2025-12']);
+assert.equal(D.weeklyObservations.length,25);
+assert.equal(D.weeklySources.length,4);
+assert.equal(D.weeklyObservations.find(r=>r.metric==='ndrc_ratio').value,4.07);
+for(const r of D.weeklyObservations){
+ assert.match(r.sampleDate,/^2026-\d{2}-\d{2}$/);
+ assert.ok(r.sampleDate<=r.publishedAt&&r.publishedAt<=D.asOf);
+ assert.ok(r.frequency.startsWith('周度'));assert.match(r.url,/^https:\/\//);
+ if(r.periodStart)assert.ok(r.periodStart<=r.periodEnd&&r.periodEnd===r.sampleDate);
+}
+assert.equal(D.weeklyObservations.find(r=>r.metric==='hog'&&r.sampleDate==='2026-11-05').value,10.11);
+assert.equal(D.observations.some(r=>r.date==='2026-10'&&r.metric==='hog'),false);
+assert.equal(D.observations.some(r=>r.date.length!==7),false);
+
 assert.equal(D.observations.filter(o=>o.date<'2021-01').length,311);
 assert.equal(new Set(D.observations.map(o=>o.metric+'|'+o.date)).size,D.observations.length);
 const catalog=Object.fromEntries(D.catalog.map(c=>[c.id,c]));
@@ -58,6 +71,10 @@ const document={getElementById:id=>nodes.get(id),querySelectorAll:select,querySe
 const window={HOG_DATA:D,HogAnalytics:A,addEventListener:(k,fn)=>events[k]=fn,scrollTo:()=>{}};
 const context=vm.createContext({window,document,location,history:{replaceState:(_,__,hash)=>location.hash=hash},URL,Blob,AbortController,console});
 vm.runInContext(fs.readFileSync('dist/app.js','utf8'),context);
+assert.match(nodes.get('weekly-body').innerHTML,/2026-11-05/);
+assert.match(nodes.get('weekly-body').innerHTML,/10.11/);
+assert.match(nodes.get('weekly-summary').textContent,/25条独立周度/);
+assert.equal((nodes.get('weekly-body').innerHTML.match(/<tr>/g)||[]).length,25);
 assert.match(nodes.get('kpis').innerHTML,/11\.42/);assert.match(nodes.get('overview-chart').innerHTML,/<svg/);assert.match(nodes.get('heatmap').innerHTML,/2024-10/);assert.match(nodes.get('heatmap').innerHTML,/2016-01/);assert.match(nodes.get('heatmap').innerHTML,/2026-12/);assert.equal((nodes.get('heatmap').innerHTML.match(/data-date=/g)||[]).length,132);assert.match(nodes.get('future-result').innerHTML,/170,880/);assert.equal(registered.size,2);assert.match(nodes.get('pigfeed-bars').innerHTML,/16,639\.4/);assert.match(nodes.get('overview-coverage').textContent,/12项年度/);
 for(const id of ['overview-period','trajectory-period','lab-period'])assert.equal(nodes.get(id).value,'all');
 assert.match(nodes.get('hog-trend').innerHTML,/2026-09/);assert.match(nodes.get('overview-chart').innerHTML,/2026-09/);
@@ -82,4 +99,4 @@ const read=registered.get('read_indicator_observations');assert.equal(read.execu
 assert.equal(window.HogSite.downloadCsv(A.series(D,'ratio_mara').filter(o=>o.date.startsWith('2024'))).split('\r\n').length,12);
 for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(!/^(https:|data:)/.test(m[1]))assert.ok(fs.existsSync('dist/'+m[1]),'Missing asset '+m[1]);}
 assert.equal(new Set(elements.filter(e=>e.id).map(e=>e.id)).size,elements.filter(e=>e.id).length);
-console.log(JSON.stringify({status:'passed',metrics:D.catalog.length,observations:D.observations.length,sources:D.sources.length,pairs:idx.pairs.length,lagPairs:lagged.pairs.length,checks:'Data integrity, exact calendar alignment, missing periods, annual coverage, correlation math, futures calculations, app initialization, filtering, pagination, CSV, and shared tool state',limitations:'Visual browser QA and a supported WebMCP browser context unavailable; DOM and registry checks use an adapter.'},null,2));
+console.log(JSON.stringify({status:'passed',metrics:D.catalog.length,observations:D.observations.length,weeklyObservations:D.weeklyObservations.length,sources:D.sources.length,pairs:idx.pairs.length,lagPairs:lagged.pairs.length,checks:'Data integrity, exact calendar alignment, missing periods, annual coverage, correlation math, futures calculations, app initialization, filtering, pagination, CSV, and shared tool state',limitations:'Visual browser QA and a supported WebMCP browser context unavailable; DOM and registry checks use an adapter.'},null,2));
